@@ -16,7 +16,7 @@ Tailor the search with travel distance, party size, dates, sports, dietary prefe
 
 **0:24–0:32 · THE LOCAL AGENT**
 
-The local AI compares the options against what matters to this family.
+Next.js powers the interface. A Python backend, built with FastAPI, coordinates the investigation.
 
 **0:32–0:42 · YOUR FAMILY PICK**
 
@@ -28,7 +28,7 @@ The event card brings together the essentials: when, where, how far, ticket pric
 
 **0:50–0:58 · SHOW YOUR WORK**
 
-Open the score breakdown to understand the factors and weights behind the recommendation. Evidence confidence is shown separately.
+Python applies fixed ranking rules. The breakdown shows what matters, while evidence confidence is measured separately.
 
 **0:58–1:05 · ALSO WORTH SHOWING UP FOR**
 
@@ -64,7 +64,7 @@ Seating guidance highlights accessible options and useful amenities, with practi
 
 **2:03–2:13 · WEATHER FOR YOUR OUTING**
 
-The weather card adds a forecast near the event’s start time, including temperature, feels-like conditions, rain chance, and wind.
+Open-Meteo supplies the venue forecast: temperature, feels-like conditions, rain chance, and wind near the event’s start time.
 
 **2:13–2:24 · WHAT TO WEAR**
 
@@ -72,11 +72,11 @@ Attire suggestions connect the forecast with the outing. Layers, rain protection
 
 **2:24–2:30 · THE EVIDENCE BEHIND THE GUIDE**
 
-The Sources tab keeps the guide’s supporting links and review dates within reach.
+Semantic retrieval connects this guide to curated venue evidence, keeping the supporting sources visible.
 
 **2:30–2:38 · HELP IMPROVE THE NEXT PICK**
 
-Rate the recommendation, say whether you would attend, or suggest a correction.
+Rate the pick or suggest a correction. SQLite stores feedback and completed recommendations locally.
 
 **2:38–2:47 · THE ICONIC EXPERIENCE**
 
@@ -84,7 +84,7 @@ Now change the brief: the iconic Bay Area experience. With budget and distance l
 
 **2:47–2:54 · A DIFFERENT INVESTIGATION**
 
-The agent compares the options again, this time for an iconic experience.
+Ollama runs the AI locally, selecting tools and retrieving evidence for the new search.
 
 **2:54–3:04 · YOUR ICONIC PICK**
 

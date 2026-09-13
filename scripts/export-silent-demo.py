@@ -60,7 +60,9 @@ actual = sum(float(v)*f for v, f in zip(match.groups(), [3600, 60, 1]))
 if abs(actual-duration) > 1 or not 180 <= actual <= 240:
     raise RuntimeError("Export duration differs from the requested timeline.")
 
-chapters = [{**s, "at": adjusted(s["at"])} for s in recording["chapters"]]
+storyboard = {s["id"]: s for s in json.loads((OUT / "storyboard.json").read_text())}
+chapters = [{**s, "narration": storyboard[s["id"]]["narration"], "at": adjusted(s["at"])}
+            for s in recording["chapters"]]
 for i, s in enumerate(chapters):
     s["end"] = chapters[i+1]["at"] if i+1 < len(chapters) else duration
 (OUT / "chapters.json").write_text(json.dumps(chapters, indent=2)+"\n")

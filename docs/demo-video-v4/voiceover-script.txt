@@ -4,13 +4,13 @@ Let’s start with a family day on a budget: San Jose, two adults, two children,
 
 Tailor the search with travel distance, party size, dates, sports, dietary preferences, and accessibility needs.
 
-The local AI compares the options against what matters to this family.
+Next.js powers the interface. A Python backend, built with FastAPI, coordinates the investigation.
 
 Our pick is the San Jose Giants at Excite Ballpark. One clear recommendation takes center stage, with the reasons behind the choice.
 
 The event card brings together the essentials: when, where, how far, ticket price, and an estimate for the whole outing.
 
-Open the score breakdown to understand the factors and weights behind the recommendation. Evidence confidence is shown separately.
+Python applies fixed ranking rules. The breakdown shows what matters, while evidence confidence is measured separately.
 
 Two smaller alternatives make it easy to compare other experiences without losing sight of the top pick.
 
@@ -28,17 +28,17 @@ Parking information sits alongside the venue’s guidance, so planning the journ
 
 Seating guidance highlights accessible options and useful amenities, with practical tips for aisle access, steps, and comfort.
 
-The weather card adds a forecast near the event’s start time, including temperature, feels-like conditions, rain chance, and wind.
+Open-Meteo supplies the venue forecast: temperature, feels-like conditions, rain chance, and wind near the event’s start time.
 
 Attire suggestions connect the forecast with the outing. Layers, rain protection, and venue clothing or umbrella rules help you decide what to bring.
 
-The Sources tab keeps the guide’s supporting links and review dates within reach.
+Semantic retrieval connects this guide to curated venue evidence, keeping the supporting sources visible.
 
-Rate the recommendation, say whether you would attend, or suggest a correction.
+Rate the pick or suggest a correction. SQLite stores feedback and completed recommendations locally.
 
 Now change the brief: the iconic Bay Area experience. With budget and distance limits removed, the search can prioritize a memorable sports occasion.
 
-The agent compares the options again, this time for an iconic experience.
+Ollama runs the AI locally, selecting tools and retrieving evidence for the new search.
 
 The recommendation changes to Cal versus Stanford: the Big Game. Its rivalry and significance make it a very different kind of outing.
 

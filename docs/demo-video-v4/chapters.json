@@ -30,7 +30,7 @@
     "id": "family-ai",
     "label": "THE LOCAL AGENT",
     "caption": "Comparing events and evidence \u00b7 waiting time shortened.",
-    "narration": "The local AI compares the options against what matters to this family.",
+    "narration": "Next.js powers the interface. A Python backend, built with FastAPI, coordinates the investigation.",
     "hold_seconds": 6,
     "at": 24.972,
     "end": 32.396
@@ -57,7 +57,7 @@
     "id": "score",
     "label": "SHOW YOUR WORK",
     "caption": "See the factors behind the Opportunity Score.",
-    "narration": "Open the score breakdown to understand the factors and weights behind the recommendation. Evidence confidence is shown separately.",
+    "narration": "Python applies fixed ranking rules. The breakdown shows what matters, while evidence confidence is measured separately.",
     "hold_seconds": 7,
     "at": 50.539,
     "end": 58.772999999999996
@@ -138,7 +138,7 @@
     "id": "weather",
     "label": "WEATHER FOR YOUR OUTING",
     "caption": "Temperature, feels-like conditions, rain and wind.",
-    "narration": "The weather card adds a forecast near the event\u2019s start time, including temperature, feels-like conditions, rain chance, and wind.",
+    "narration": "Open-Meteo supplies the venue forecast: temperature, feels-like conditions, rain chance, and wind near the event\u2019s start time.",
     "hold_seconds": 9,
     "at": 123.965,
     "end": 133.97
@@ -156,7 +156,7 @@
     "id": "sources",
     "label": "THE EVIDENCE BEHIND THE GUIDE",
     "caption": "See the evidence behind the guide.",
-    "narration": "The Sources tab keeps the guide\u2019s supporting links and review dates within reach.",
+    "narration": "Semantic retrieval connects this guide to curated venue evidence, keeping the supporting sources visible.",
     "hold_seconds": 5,
     "at": 144.2,
     "end": 150.116
@@ -165,7 +165,7 @@
     "id": "feedback",
     "label": "HELP IMPROVE THE NEXT PICK",
     "caption": "Rate the pick and share useful feedback.",
-    "narration": "Rate the recommendation, say whether you would attend, or suggest a correction.",
+    "narration": "Rate the pick or suggest a correction. SQLite stores feedback and completed recommendations locally.",
     "hold_seconds": 5,
     "at": 150.116,
     "end": 158.245
@@ -183,7 +183,7 @@
     "id": "iconic-ai",
     "label": "A DIFFERENT INVESTIGATION",
     "caption": "A new brief, a new comparison \u00b7 waiting time shortened.",
-    "narration": "The agent compares the options again, this time for an iconic experience.",
+    "narration": "Ollama runs the AI locally, selecting tools and retrieving evidence for the new search.",
     "hold_seconds": 6,
     "at": 167.564,
     "end": 174.982
