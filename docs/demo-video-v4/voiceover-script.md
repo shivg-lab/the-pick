@@ -4,7 +4,7 @@ The MP4 is silent. These are suggested narration windows for a later voiceover. 
 
 **0:00–0:09 · THE PICK**
 
-Meet The Pick, your personal live-sports concierge. Find the experience worth showing up for, and get ready for the whole outing.
+The Pick turns your preferences into a sports outing, using an AI agent, grounded recommendations, and practical venue guidance.
 
 **0:09–0:17 · FAMILY ON A BUDGET**
 
@@ -16,7 +16,7 @@ Tailor the search with travel distance, party size, dates, sports, dietary prefe
 
 **0:24–0:32 · THE LOCAL AGENT**
 
-Next.js powers the interface. A Python backend, built with FastAPI, coordinates the investigation.
+Next.js connects to Python and FastAPI, where a local agent coordinates the investigation.
 
 **0:32–0:42 · YOUR FAMILY PICK**
 
@@ -28,7 +28,7 @@ The event card brings together the essentials: when, where, how far, ticket pric
 
 **0:50–0:58 · SHOW YOUR WORK**
 
-Python applies fixed ranking rules. The breakdown shows what matters, while evidence confidence is measured separately.
+Python applies fixed ranking rules; the agent gathers evidence. The score breakdown and evidence confidence remain separate and inspectable.
 
 **0:58–1:05 · ALSO WORTH SHOWING UP FOR**
 
@@ -36,11 +36,11 @@ Two smaller alternatives make it easy to compare other experiences without losin
 
 **1:05–1:12 · KNOW BEFORE YOU GO**
 
-Right beneath the winner, a practical preview takes you from choosing the event to preparing for it.
+RAG, or retrieval-augmented generation, grounds the guide in relevant evidence from our curated venue corpus.
 
 **1:12–1:22 · THE FULL VENUE GUIDE**
 
-The full venue guide brings bag policies and outside-food rules into one place, with source links and any conflicting guidance highlighted.
+The guide turns that evidence into bag and outside-food guidance, with official links and any source conflicts highlighted.
 
 **1:22–1:30 · PACK WITH CONFIDENCE**
 
@@ -72,7 +72,7 @@ Attire suggestions connect the forecast with the outing. Layers, rain protection
 
 **2:24–2:30 · THE EVIDENCE BEHIND THE GUIDE**
 
-Semantic retrieval connects this guide to curated venue evidence, keeping the supporting sources visible.
+Venue filters keep evidence tied to this location, with source links and review dates.
 
 **2:30–2:38 · HELP IMPROVE THE NEXT PICK**
 
@@ -84,7 +84,7 @@ Now change the brief: the iconic Bay Area experience. With budget and distance l
 
 **2:47–2:54 · A DIFFERENT INVESTIGATION**
 
-Ollama runs the AI locally, selecting tools and retrieving evidence for the new search.
+Ollama powers a bounded workflow: plan, call tools, inspect evidence, and follow up when needed.
 
 **2:54–3:04 · YOUR ICONIC PICK**
 
@@ -92,12 +92,12 @@ The recommendation changes to Cal versus Stanford: the Big Game. Its rivalry and
 
 **3:04–3:11 · UNDERSTAND THE TRADEOFFS**
 
-The winning card explains the fit and brings the venue, estimated cost, and practical tradeoffs together.
+Our evaluation checks constraints, citation metadata, venue matching, and repeatable ranking using stored inputs and evidence.
 
 **3:11–3:19 · COMPARE YOUR OPTIONS**
 
-Two alternatives offer other ways to enjoy a major Bay Area sports experience, alongside the same clear comparison details.
+All twenty-four fixture and guardrail scenarios passed. A distance-only baseline provides a comparison for our personalized rankings.
 
 **3:19–3:27 · THE PICK**
 
-From a family afternoon to a landmark rivalry: discover, decide, and prepare. The Pick. We do the homework. You make the memories.
+Our goal: evidence-backed decisions, explained clearly, with preparation built in. The Pick. We do the homework. You make the memories.
