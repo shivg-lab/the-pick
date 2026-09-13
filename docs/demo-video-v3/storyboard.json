@@ -1,0 +1,176 @@
+[
+  {
+    "id": "intro",
+    "label": "THE PICK",
+    "caption": "Discover. Decide. Prepare.",
+    "narration": "Meet The Pick, your personal Bay Area sports concierge. It helps you choose an experience, understand the tradeoffs, and prepare for the whole outing."
+  },
+  {
+    "id": "family",
+    "label": "FAMILY ON A BUDGET",
+    "caption": "Two adults, two children, $120 total.",
+    "narration": "First, a family day on a budget. We are starting in San Jose with two children, a hundred and twenty dollars total, and a preference for vegetarian food."
+  },
+  {
+    "id": "filters",
+    "label": "MAKE IT YOUR DAY",
+    "caption": "Adjust location, budget, distance and personal needs.",
+    "narration": "The preferences panel lets you adjust your starting point, budget, travel radius, and party size. More options cover dates, sports, dietary needs, and accessibility."
+  },
+  {
+    "id": "family-ai",
+    "label": "THE LOCAL AGENT",
+    "caption": "Investigating real sources · waiting time shortened.",
+    "narration": "The local AI investigates qualifying events and supporting evidence. You can follow its progress. The waiting time in this recording has been shortened."
+  },
+  {
+    "id": "family-pick",
+    "label": "YOUR FAMILY PICK",
+    "caption": "One prominent winner, with clear reasons.",
+    "narration": "The family recommendation is the San Jose Giants at Excite Ballpark. The winning card explains why this smaller local experience fits the request."
+  },
+  {
+    "id": "details",
+    "label": "THE EVENT, AT A GLANCE",
+    "caption": "Venue, date, distance, ticket price and outing estimate.",
+    "narration": "Scroll through the event details: the venue, date, distance, ticket price, and total outing estimate. The card keeps evidence confidence and practical tradeoffs visible."
+  },
+  {
+    "id": "score",
+    "label": "SHOW YOUR WORK",
+    "caption": "Inspect the score, factors and weights.",
+    "narration": "The Opportunity Score is transparent. Open the breakdown to see the factors and their weights. Evidence confidence is shown separately from how well an outing fits."
+  },
+  {
+    "id": "alternatives",
+    "label": "ALSO WORTH SHOWING UP FOR",
+    "caption": "Two smaller alternatives to compare.",
+    "narration": "The two smaller alternatives give you other ways to spend the day. Each has its own score, price, venue, and explanation."
+  },
+  {
+    "id": "preview",
+    "label": "KNOW BEFORE YOU GO",
+    "caption": "Practical guidance directly beneath the winner.",
+    "narration": "Preparation starts right beneath the pick, with a quick preview of bags, food, arrival, parking, seating convenience, and what to wear."
+  },
+  {
+    "id": "bags",
+    "label": "THE FULL VENUE GUIDE",
+    "caption": "Bag policy, outside food and source conflicts.",
+    "narration": "Open the full venue guide for the details. Bag and outside-food policies include official links. Conflicting clutch-size guidance is flagged rather than silently resolved."
+  },
+  {
+    "id": "essentials",
+    "label": "PACK WITH CONFIDENCE",
+    "caption": "Water, children’s needs, prohibited items and re-entry.",
+    "narration": "The essentials also cover water bottles, children's and medical needs, prohibited items, and re-entry. Missing information is clearly marked for you to confirm."
+  },
+  {
+    "id": "food",
+    "label": "FOOD & ARRIVAL",
+    "caption": "Dietary preferences, concessions and information gaps.",
+    "narration": "Food guidance lists the available concessions evidence. A vegetarian preference is not treated as a guarantee: when ingredients are unverified, the guide says so."
+  },
+  {
+    "id": "arrival",
+    "label": "GETTING THERE",
+    "caption": "Arrival guidance and honest distance estimates.",
+    "narration": "Arrival advice helps you plan the visit. Distances are straight-line estimates, with driving times and event-day arrangements left for you to verify."
+  },
+  {
+    "id": "parking",
+    "label": "PARKING & COMFORT",
+    "caption": "Parking locations, booking guidance and older sources.",
+    "narration": "Parking guidance identifies the official options and where to check them. Here, the source still describes an older season, so current arrangements need confirmation."
+  },
+  {
+    "id": "seating",
+    "label": "FIND A COMFORTABLE SEAT",
+    "caption": "Accessible seating, nearby amenities and practical tips.",
+    "narration": "Seating guidance highlights accessible seating and nearby restrooms where verified. Practical tips help you compare aisle access, seat backs, steps, and proximity to amenities."
+  },
+  {
+    "id": "weather",
+    "label": "WEATHER FOR YOUR OUTING",
+    "caption": "Real forecast near the event’s start time.",
+    "narration": "The weather card shows a real forecast for this venue and the illustrative event date: temperature, feels-like conditions, rain chance, wind, and the retrieval time."
+  },
+  {
+    "id": "attire",
+    "label": "WHAT TO WEAR",
+    "caption": "Weather-informed suggestions plus official venue rules.",
+    "narration": "Clothing suggestions respond to the forecast, with layers for cooler conditions and rain protection when needed. Official umbrella and clothing restrictions appear alongside the advice."
+  },
+  {
+    "id": "sources",
+    "label": "CHECK THE SOURCES",
+    "caption": "Official links, review dates and evidence provenance.",
+    "narration": "The Sources tab lets you inspect the evidence behind the outing, including official links and review dates. Illustrative scenario assumptions are labeled separately."
+  },
+  {
+    "id": "feedback",
+    "label": "HELP IMPROVE THE NEXT PICK",
+    "caption": "Rate the outing and report corrections.",
+    "narration": "You can rate the suggestion, say whether you would attend, or report a correction. This prototype saves that feedback locally."
+  },
+  {
+    "id": "iconic",
+    "label": "THE ICONIC EXPERIENCE",
+    "caption": "A different goal, with no budget or distance limit.",
+    "narration": "Now let's switch to the iconic Bay Area experience. This search removes the budget and distance limits and asks for a memorable sports occasion."
+  },
+  {
+    "id": "iconic-ai",
+    "label": "A DIFFERENT INVESTIGATION",
+    "caption": "History, rivalry and significance · waiting time shortened.",
+    "narration": "The agent investigates again for this new goal, bringing sports history, rivalry, and significance into the comparison. We shorten the wait here too."
+  },
+  {
+    "id": "iconic-pick",
+    "label": "YOUR ICONIC PICK",
+    "caption": "Cal versus Stanford: The Big Game.",
+    "narration": "The recommendation changes to Cal versus Stanford, the Big Game. The app explains the rivalry's significance and why it fits an iconic experience."
+  },
+  {
+    "id": "iconic-details",
+    "label": "UNDERSTAND THE TRADEOFFS",
+    "caption": "Inspect this event’s venue, cost and supporting reasons.",
+    "narration": "Scroll through this pick's details and tradeoffs. You can inspect its score and estimated cost before deciding whether the bigger occasion is right for you."
+  },
+  {
+    "id": "iconic-guide",
+    "label": "A GUIDE FOR THIS VENUE",
+    "caption": "Memorial Stadium’s policies and food information.",
+    "narration": "The full guide now belongs to California Memorial Stadium. Bag, food, water, and entry guidance stays tied to this venue, with any gaps clearly visible."
+  },
+  {
+    "id": "iconic-comfort",
+    "label": "PLAN THE BIG DAY",
+    "caption": "Venue-specific parking and accessible routes.",
+    "narration": "Parking and seating guidance changes with the venue too. Check official parking options, accessible routes, and the seating details before buying tickets."
+  },
+  {
+    "id": "iconic-weather",
+    "label": "HONEST ABOUT WHAT’S UNKNOWN",
+    "caption": "No forecast invented for a distant event.",
+    "narration": "This November event is outside the forecast window. The app does not substitute today's weather. It shows general clothing tips until a useful forecast becomes available."
+  },
+  {
+    "id": "iconic-alternatives",
+    "label": "COMPARE YOUR OPTIONS",
+    "caption": "Two alternatives for the iconic search.",
+    "narration": "The iconic search also provides two alternatives, so you can compare other experiences against the top recommendation."
+  },
+  {
+    "id": "closing",
+    "label": "THE PICK",
+    "caption": "We do the homework. You make the memories.",
+    "narration": "From a family afternoon to a landmark rivalry, The Pick connects discovery, decision, and preparation. We do the homework. You make the memories."
+  },
+  {
+    "id": "disclaimer",
+    "label": "ABOUT THIS DEMO",
+    "caption": "Real app and AI · illustrative event listings.",
+    "narration": "This recording uses the real local app and AI agent. Event dates, matchups, and prices are illustrative. Check official listings before planning a real visit."
+  }
+]

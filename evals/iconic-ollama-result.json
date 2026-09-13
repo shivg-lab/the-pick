@@ -1,0 +1,1264 @@
+{
+  "request_id": "1261a5e6-2648-480c-988f-1189703a2b59",
+  "parsed_intent": {
+    "raw_query": "I want the most exciting, iconic Bay Area sports experience. Budget and distance do not matter.",
+    "location": "San Jose",
+    "coordinates": {
+      "lat": 37.3382,
+      "lon": -121.8863
+    },
+    "date_from": null,
+    "date_to": null,
+    "radius_miles": null,
+    "sports": [],
+    "teams": [],
+    "budget": null,
+    "budget_type": "total",
+    "adults": 2,
+    "children": 0,
+    "family_friendly": false,
+    "atmosphere": "iconic",
+    "local_openness": true,
+    "dietary": [],
+    "dietary_required": false,
+    "accessibility": [],
+    "first_time": false,
+    "additional_constraints": []
+  },
+  "candidates_considered": 8,
+  "exclusions": [],
+  "recommendations": [
+    {
+      "event": {
+        "id": "big-game",
+        "provider": "demo",
+        "provider_event_id": "big-game",
+        "name": "Cal vs. Stanford \u00b7 The Big Game",
+        "sport": "football",
+        "league": "NCAA",
+        "level": "college",
+        "teams": [
+          "California Golden Bears",
+          "Stanford Cardinal"
+        ],
+        "start_time": "2026-11-21T12:30:00-08:00",
+        "timezone": "America/Los_Angeles",
+        "venue": "California Memorial Stadium",
+        "city": "Berkeley",
+        "state": "CA",
+        "coordinates": {
+          "lat": 37.871,
+          "lon": -122.2508
+        },
+        "price_min": 75.0,
+        "price_max": 150.0,
+        "price_basis": "illustrative",
+        "outing_extra": 65.0,
+        "ticket_url": "https://calbears.com/sports/2014/11/17/209769759",
+        "source_url": "/api/demo/fixtures/big-game",
+        "image": null,
+        "retrieved_at": "2026-09-12T21:00:00Z",
+        "verification": "illustrative",
+        "data_mode": "illustrative",
+        "public_access": true,
+        "spectator_event": true,
+        "date_confirmed": true,
+        "venue_confirmed": true,
+        "signals": [
+          "rivalry",
+          "local tradition"
+        ],
+        "significance": 100.0,
+        "experience": 97.0,
+        "family": 70.0,
+        "atmosphere": "electric",
+        "color": "blue",
+        "evidence": [
+          {
+            "id": "fixture-big-game",
+            "claim": "Illustrative fixture: Cal vs. Stanford \u00b7 The Big Game; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+            "category": "fixture",
+            "source_id": "fixture-big-game",
+            "source_title": "Illustrative scenario assumptions",
+            "source_url": "/api/demo/fixtures/big-game",
+            "authority": "illustrative",
+            "retrieved_at": "2026-09-12T21:00:00Z",
+            "effective_date": null,
+            "freshness": "illustrative",
+            "confidence": 0.5,
+            "retrieval_score": null,
+            "venue": null,
+            "event_id": null,
+            "event_type": null,
+            "field": null,
+            "value": null
+          }
+        ]
+      },
+      "rank": 1,
+      "score": {
+        "factors": {
+          "user_fit": 100.0,
+          "significance": 100.0,
+          "experience": 97.0,
+          "convenience": null,
+          "value": null,
+          "personal_needs": null
+        },
+        "weights": {
+          "user_fit": 0.416667,
+          "significance": 0.333333,
+          "experience": 0.25,
+          "convenience": 0.0,
+          "value": 0.0,
+          "personal_needs": 0.0
+        },
+        "opportunity_score": 99.2,
+        "evidence_confidence": 75,
+        "missing_factors": [
+          "convenience",
+          "value",
+          "personal_needs"
+        ],
+        "rationale": {
+          "user_fit": "Deterministic from validated preferences and cited inputs.",
+          "significance": "Editorial fixture rubric, not a live competitive statistic.",
+          "experience": "Deterministic from validated preferences and cited inputs.",
+          "convenience": "Unavailable or not relevant; remaining weights normalized proportionally.",
+          "value": "Budget remaining after the modeled cost; not a ticket availability guarantee.",
+          "personal_needs": "Unavailable or not relevant; remaining weights normalized proportionally."
+        }
+      },
+      "distance_miles": 41.9,
+      "estimated_total": 215.0,
+      "explanation": "Cal vs. Stanford \u00b7 The Big Game scores 99/100 for these preferences. The Cal\u2013Stanford football rivalry began in 1892. The annual winner receives the Stanford Axe.",
+      "why_it_matters": [
+        "The Cal\u2013Stanford football rivalry began in 1892. The annual winner receives the Stanford Axe."
+      ],
+      "why_it_fits": [
+        "41.9 straight-line miles from San Jose.",
+        "$215 illustrative outing estimate for 2 people."
+      ],
+      "tradeoffs": [
+        "Date, matchup and prices are illustrative; use official listings to plan a real visit.",
+        "Distance is straight-line, not driving distance or travel time.",
+        "Outing estimate includes a $65 scenario allowance for fees, food and transport; actual costs vary."
+      ],
+      "guide": {
+        "policy": {
+          "venue": "California Memorial Stadium",
+          "fields": {
+            "bags": {
+              "id": "cal-bags:0",
+              "claim": "A clear-bag policy applies and guests are subject to search.",
+              "category": "policy",
+              "source_id": "cal-bags",
+              "source_title": "Memorial Stadium entry policy",
+              "source_url": "https://calbears.com/sports/2026/8/3/cal-football-gameday-policies",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": "2026-08-03",
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.4655,
+              "venue": "California Memorial Stadium",
+              "event_id": null,
+              "event_type": null,
+              "field": "bags",
+              "value": null
+            },
+            "outside_food": {
+              "id": "cal-food:0",
+              "claim": "Food is permitted; fruit must be cut into pieces.",
+              "category": "policy",
+              "source_id": "cal-food",
+              "source_title": "Food at Memorial Stadium",
+              "source_url": "https://calbears.com/sports/2026/8/3/cal-football-gameday-policies",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": "2026-08-03",
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.3993,
+              "venue": "California Memorial Stadium",
+              "event_id": null,
+              "event_type": null,
+              "field": "outside_food",
+              "value": null
+            }
+          },
+          "conflicts": [],
+          "warnings": [
+            "Water: not verified in the current corpus.",
+            "Exceptions: not verified in the current corpus.",
+            "Prohibited: not verified in the current corpus.",
+            "Reentry: not verified in the current corpus."
+          ],
+          "last_verified": "2026-09-12"
+        },
+        "food": [],
+        "arrival": [],
+        "warnings": [
+          "Water: not verified in the current corpus.",
+          "Exceptions: not verified in the current corpus.",
+          "Prohibited: not verified in the current corpus.",
+          "Reentry: not verified in the current corpus.",
+          "Dietary options are not verified in the current corpus. Contact the venue.",
+          "These are stored official-source summaries, not event-day verification. Recheck the official guide."
+        ]
+      },
+      "citations": [
+        {
+          "id": "fixture-big-game",
+          "claim": "Illustrative fixture: Cal vs. Stanford \u00b7 The Big Game; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+          "category": "fixture",
+          "source_id": "fixture-big-game",
+          "source_title": "Illustrative scenario assumptions",
+          "source_url": "/api/demo/fixtures/big-game",
+          "authority": "illustrative",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "illustrative",
+          "confidence": 0.5,
+          "retrieval_score": null,
+          "venue": null,
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": null
+        },
+        {
+          "id": "biggame-history:0",
+          "claim": "The Cal\u2013Stanford football rivalry began in 1892. The annual winner receives the Stanford Axe.",
+          "category": "context",
+          "source_id": "biggame-history",
+          "source_title": "More than a game: the Big Game",
+          "source_url": "https://calbears.com/sports/2014/11/17/209769759",
+          "authority": "official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": "2014-11-17",
+          "freshness": "historical",
+          "confidence": 0.95,
+          "retrieval_score": 0.3479,
+          "venue": "California Memorial Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": null
+        },
+        {
+          "id": "cal-bags:0",
+          "claim": "A clear-bag policy applies and guests are subject to search.",
+          "category": "policy",
+          "source_id": "cal-bags",
+          "source_title": "Memorial Stadium entry policy",
+          "source_url": "https://calbears.com/sports/2026/8/3/cal-football-gameday-policies",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": "2026-08-03",
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.4655,
+          "venue": "California Memorial Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": "bags",
+          "value": null
+        },
+        {
+          "id": "cal-food:0",
+          "claim": "Food is permitted; fruit must be cut into pieces.",
+          "category": "policy",
+          "source_id": "cal-food",
+          "source_title": "Food at Memorial Stadium",
+          "source_url": "https://calbears.com/sports/2026/8/3/cal-football-gameday-policies",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": "2026-08-03",
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3993,
+          "venue": "California Memorial Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": "outside_food",
+          "value": null
+        }
+      ],
+      "warnings": [
+        "Water: not verified in the current corpus.",
+        "Exceptions: not verified in the current corpus.",
+        "Prohibited: not verified in the current corpus.",
+        "Reentry: not verified in the current corpus.",
+        "Dietary options are not verified in the current corpus. Contact the venue.",
+        "These are stored official-source summaries, not event-day verification. Recheck the official guide."
+      ],
+      "data_mode": "illustrative"
+    },
+    {
+      "event": {
+        "id": "49ers",
+        "provider": "demo",
+        "provider_event_id": "49ers",
+        "name": "San Francisco 49ers vs. Seattle Seahawks",
+        "sport": "football",
+        "league": "NFL",
+        "level": "professional",
+        "teams": [
+          "San Francisco 49ers",
+          "Seattle Seahawks"
+        ],
+        "start_time": "2026-09-20T13:25:00-07:00",
+        "timezone": "America/Los_Angeles",
+        "venue": "Levi\u2019s Stadium",
+        "city": "Santa Clara",
+        "state": "CA",
+        "coordinates": {
+          "lat": 37.403,
+          "lon": -121.97
+        },
+        "price_min": 175.0,
+        "price_max": 320.0,
+        "price_basis": "illustrative",
+        "outing_extra": 100.0,
+        "ticket_url": "https://levisstadium.com/stadium-az-guide/",
+        "source_url": "/api/demo/fixtures/49ers",
+        "image": null,
+        "retrieved_at": "2026-09-12T21:00:00Z",
+        "verification": "illustrative",
+        "data_mode": "illustrative",
+        "public_access": true,
+        "spectator_event": true,
+        "date_confirmed": true,
+        "venue_confirmed": true,
+        "signals": [
+          "rivalry",
+          "strong atmosphere"
+        ],
+        "significance": 96.0,
+        "experience": 98.0,
+        "family": 62.0,
+        "atmosphere": "electric",
+        "color": "red",
+        "evidence": [
+          {
+            "id": "fixture-49ers",
+            "claim": "Illustrative fixture: San Francisco 49ers vs. Seattle Seahawks; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+            "category": "fixture",
+            "source_id": "fixture-49ers",
+            "source_title": "Illustrative scenario assumptions",
+            "source_url": "/api/demo/fixtures/49ers",
+            "authority": "illustrative",
+            "retrieved_at": "2026-09-12T21:00:00Z",
+            "effective_date": null,
+            "freshness": "illustrative",
+            "confidence": 0.5,
+            "retrieval_score": null,
+            "venue": null,
+            "event_id": null,
+            "event_type": null,
+            "field": null,
+            "value": null
+          }
+        ]
+      },
+      "rank": 2,
+      "score": {
+        "factors": {
+          "user_fit": 96.0,
+          "significance": 96.0,
+          "experience": 98.0,
+          "convenience": null,
+          "value": null,
+          "personal_needs": null
+        },
+        "weights": {
+          "user_fit": 0.416667,
+          "significance": 0.333333,
+          "experience": 0.25,
+          "convenience": 0.0,
+          "value": 0.0,
+          "personal_needs": 0.0
+        },
+        "opportunity_score": 96.5,
+        "evidence_confidence": 70,
+        "missing_factors": [
+          "convenience",
+          "value",
+          "personal_needs"
+        ],
+        "rationale": {
+          "user_fit": "Deterministic from validated preferences and cited inputs.",
+          "significance": "Editorial fixture rubric, not a live competitive statistic.",
+          "experience": "Deterministic from validated preferences and cited inputs.",
+          "convenience": "Unavailable or not relevant; remaining weights normalized proportionally.",
+          "value": "Budget remaining after the modeled cost; not a ticket availability guarantee.",
+          "personal_needs": "Unavailable or not relevant; remaining weights normalized proportionally."
+        }
+      },
+      "distance_miles": 6.4,
+      "estimated_total": 450.0,
+      "explanation": "San Francisco 49ers vs. Seattle Seahawks scores 96/100 for these preferences. Food must be in clear plastic wrapping or compliant clear bags. Weapons, cans, glass bottles, coolers and noisemakers are prohibited.",
+      "why_it_matters": [
+        "Food must be in clear plastic wrapping or compliant clear bags.",
+        "Weapons, cans, glass bottles, coolers and noisemakers are prohibited."
+      ],
+      "why_it_fits": [
+        "6.4 straight-line miles from San Jose.",
+        "$450 illustrative outing estimate for 2 people."
+      ],
+      "tradeoffs": [
+        "Date, matchup and prices are illustrative; use official listings to plan a real visit.",
+        "Distance is straight-line, not driving distance or travel time.",
+        "Outing estimate includes a $100 scenario allowance for fees, food and transport; actual costs vary.",
+        "Official sources disagree about water. Confirm with the venue before attending."
+      ],
+      "guide": {
+        "policy": {
+          "venue": "Levi\u2019s Stadium",
+          "fields": {
+            "outside_food": {
+              "id": "levis-food-rule:0",
+              "claim": "Food must be in clear plastic wrapping or compliant clear bags.",
+              "category": "policy",
+              "source_id": "levis-food-rule",
+              "source_title": "Bring your own food",
+              "source_url": "https://levisstadium.com/stadium-az-guide/",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.5477,
+              "venue": "Levi\u2019s Stadium",
+              "event_id": null,
+              "event_type": null,
+              "field": "outside_food",
+              "value": null
+            },
+            "exceptions": {
+              "id": "levis-exceptions:0",
+              "claim": "Diaper bags must accompany a child. Medical items require inspection and an inspection marker.",
+              "category": "policy",
+              "source_id": "levis-exceptions",
+              "source_title": "Medical and diaper bags",
+              "source_url": "https://levisstadium.com/guest-services/permitted-prohibited-list/",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.5039,
+              "venue": "Levi\u2019s Stadium",
+              "event_id": null,
+              "event_type": null,
+              "field": "exceptions",
+              "value": null
+            },
+            "reentry": {
+              "id": "levis-reentry:0",
+              "claim": "Re-entry is not permitted. For emergencies, contact gate security.",
+              "category": "policy",
+              "source_id": "levis-reentry",
+              "source_title": "Levi\u2019s re-entry",
+              "source_url": "https://levisstadium.com/stadium-az-guide/",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.4756,
+              "venue": "Levi\u2019s Stadium",
+              "event_id": null,
+              "event_type": null,
+              "field": "reentry",
+              "value": null
+            },
+            "prohibited": {
+              "id": "levis-prohibited:0",
+              "claim": "Weapons, cans, glass bottles, coolers and noisemakers are prohibited.",
+              "category": "policy",
+              "source_id": "levis-prohibited",
+              "source_title": "Items to leave at home",
+              "source_url": "https://levisstadium.com/guest-services/permitted-prohibited-list/",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.4565,
+              "venue": "Levi\u2019s Stadium",
+              "event_id": null,
+              "event_type": null,
+              "field": "prohibited",
+              "value": null
+            },
+            "water": {
+              "id": "levis-water:0",
+              "claim": "Only sealed plastic water bottles may be brought into the stadium.",
+              "category": "policy",
+              "source_id": "levis-water",
+              "source_title": "Water at Levi\u2019s",
+              "source_url": "https://levisstadium.com/stadium-az-guide/",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.4232,
+              "venue": "Levi\u2019s Stadium",
+              "event_id": null,
+              "event_type": null,
+              "field": "water",
+              "value": null
+            },
+            "bags": {
+              "id": "levis-bags:0",
+              "claim": "Clear bags may measure up to 12 \u00d7 6 \u00d7 12 inches; non-clear clutches up to 4.5 \u00d7 6.5 inches.",
+              "category": "policy",
+              "source_id": "levis-bags",
+              "source_title": "Levi\u2019s clear-bag dimensions",
+              "source_url": "https://levisstadium.com/guest-services/permitted-prohibited-list/",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.2569,
+              "venue": "Levi\u2019s Stadium",
+              "event_id": null,
+              "event_type": null,
+              "field": "bags",
+              "value": null
+            }
+          },
+          "conflicts": [
+            "Official sources disagree about water. Confirm with the venue before attending."
+          ],
+          "warnings": [],
+          "last_verified": "2026-09-12"
+        },
+        "food": [
+          {
+            "venue": "Levi\u2019s Stadium",
+            "vendor": "Stadium Favorites \u2014 Vegan Dog",
+            "location": "Section 129 West",
+            "cuisine": "Concessions",
+            "vegetarian": true,
+            "vegan": true,
+            "gluten_free": null,
+            "allergen_information": "Allergen suitability and cross-contact are not verified. Ask the venue.",
+            "evidence": {
+              "id": "levis-vegan:0",
+              "claim": "Stadium Favorites at section 129 West lists a Vegan Dog. Menu listings do not guarantee matchday availability.",
+              "category": "food",
+              "source_id": "levis-vegan",
+              "source_title": "A verified plant-based option",
+              "source_url": "https://levisstadium.com/concessions/",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.3639,
+              "venue": "Levi\u2019s Stadium",
+              "event_id": null,
+              "event_type": null,
+              "field": null,
+              "value": {
+                "vendor": "Stadium Favorites \u2014 Vegan Dog",
+                "location": "Section 129 West",
+                "vegetarian": true,
+                "vegan": true,
+                "gluten_free": null
+              }
+            }
+          }
+        ],
+        "arrival": [],
+        "warnings": [
+          "Official sources disagree about water. Confirm with the venue before attending.",
+          "These are stored official-source summaries, not event-day verification. Recheck the official guide."
+        ]
+      },
+      "citations": [
+        {
+          "id": "fixture-49ers",
+          "claim": "Illustrative fixture: San Francisco 49ers vs. Seattle Seahawks; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+          "category": "fixture",
+          "source_id": "fixture-49ers",
+          "source_title": "Illustrative scenario assumptions",
+          "source_url": "/api/demo/fixtures/49ers",
+          "authority": "illustrative",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "illustrative",
+          "confidence": 0.5,
+          "retrieval_score": null,
+          "venue": null,
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": null
+        },
+        {
+          "id": "levis-food-rule:0",
+          "claim": "Food must be in clear plastic wrapping or compliant clear bags.",
+          "category": "policy",
+          "source_id": "levis-food-rule",
+          "source_title": "Bring your own food",
+          "source_url": "https://levisstadium.com/stadium-az-guide/",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.5477,
+          "venue": "Levi\u2019s Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": "outside_food",
+          "value": null
+        },
+        {
+          "id": "levis-exceptions:0",
+          "claim": "Diaper bags must accompany a child. Medical items require inspection and an inspection marker.",
+          "category": "policy",
+          "source_id": "levis-exceptions",
+          "source_title": "Medical and diaper bags",
+          "source_url": "https://levisstadium.com/guest-services/permitted-prohibited-list/",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.5039,
+          "venue": "Levi\u2019s Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": "exceptions",
+          "value": null
+        },
+        {
+          "id": "levis-reentry:0",
+          "claim": "Re-entry is not permitted. For emergencies, contact gate security.",
+          "category": "policy",
+          "source_id": "levis-reentry",
+          "source_title": "Levi\u2019s re-entry",
+          "source_url": "https://levisstadium.com/stadium-az-guide/",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.4756,
+          "venue": "Levi\u2019s Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": "reentry",
+          "value": null
+        },
+        {
+          "id": "levis-prohibited:0",
+          "claim": "Weapons, cans, glass bottles, coolers and noisemakers are prohibited.",
+          "category": "policy",
+          "source_id": "levis-prohibited",
+          "source_title": "Items to leave at home",
+          "source_url": "https://levisstadium.com/guest-services/permitted-prohibited-list/",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.4565,
+          "venue": "Levi\u2019s Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": "prohibited",
+          "value": null
+        },
+        {
+          "id": "levis-access:0",
+          "claim": "Public restrooms are accessible. This does not verify accessible-seat inventory.",
+          "category": "accessibility",
+          "source_id": "levis-access",
+          "source_title": "Accessible stadium restrooms",
+          "source_url": "https://levisstadium.com/stadium-az-guide/",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.4315,
+          "venue": "Levi\u2019s Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": {
+            "accessible restrooms": true
+          }
+        },
+        {
+          "id": "levis-water:0",
+          "claim": "Only sealed plastic water bottles may be brought into the stadium.",
+          "category": "policy",
+          "source_id": "levis-water",
+          "source_title": "Water at Levi\u2019s",
+          "source_url": "https://levisstadium.com/stadium-az-guide/",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.4232,
+          "venue": "Levi\u2019s Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": "water",
+          "value": null
+        },
+        {
+          "id": "levis-water-list:0",
+          "claim": "The permitted-items list allows sealed plastic and reusable transparent water bottles smaller than 24 ounces. This differs from the A\u2013Z wording.",
+          "category": "policy",
+          "source_id": "levis-water-list",
+          "source_title": "Water containers on the permitted list",
+          "source_url": "https://levisstadium.com/guest-services/permitted-prohibited-list/",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3927,
+          "venue": "Levi\u2019s Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": "water",
+          "value": null
+        },
+        {
+          "id": "levis-bags:0",
+          "claim": "Clear bags may measure up to 12 \u00d7 6 \u00d7 12 inches; non-clear clutches up to 4.5 \u00d7 6.5 inches.",
+          "category": "policy",
+          "source_id": "levis-bags",
+          "source_title": "Levi\u2019s clear-bag dimensions",
+          "source_url": "https://levisstadium.com/guest-services/permitted-prohibited-list/",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.2569,
+          "venue": "Levi\u2019s Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": "bags",
+          "value": null
+        },
+        {
+          "id": "levis-vegan:0",
+          "claim": "Stadium Favorites at section 129 West lists a Vegan Dog. Menu listings do not guarantee matchday availability.",
+          "category": "food",
+          "source_id": "levis-vegan",
+          "source_title": "A verified plant-based option",
+          "source_url": "https://levisstadium.com/concessions/",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3639,
+          "venue": "Levi\u2019s Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": {
+            "vendor": "Stadium Favorites \u2014 Vegan Dog",
+            "location": "Section 129 West",
+            "vegetarian": true,
+            "vegan": true,
+            "gluten_free": null
+          }
+        }
+      ],
+      "warnings": [
+        "Official sources disagree about water. Confirm with the venue before attending.",
+        "These are stored official-source summaries, not event-day verification. Recheck the official guide."
+      ],
+      "data_mode": "illustrative"
+    },
+    {
+      "event": {
+        "id": "sf-giants",
+        "provider": "demo",
+        "provider_event_id": "sf-giants",
+        "name": "San Francisco Giants vs. Los Angeles Dodgers",
+        "sport": "baseball",
+        "league": "MLB",
+        "level": "professional",
+        "teams": [
+          "San Francisco Giants",
+          "Los Angeles Dodgers"
+        ],
+        "start_time": "2026-09-19T18:05:00-07:00",
+        "timezone": "America/Los_Angeles",
+        "venue": "Oracle Park",
+        "city": "San Francisco",
+        "state": "CA",
+        "coordinates": {
+          "lat": 37.7786,
+          "lon": -122.3893
+        },
+        "price_min": 65.0,
+        "price_max": 140.0,
+        "price_basis": "illustrative",
+        "outing_extra": 65.0,
+        "ticket_url": "https://www.mlb.com/giants/schedule",
+        "source_url": "/api/demo/fixtures/sf-giants",
+        "image": null,
+        "retrieved_at": "2026-09-12T21:00:00Z",
+        "verification": "illustrative",
+        "data_mode": "illustrative",
+        "public_access": true,
+        "spectator_event": true,
+        "date_confirmed": true,
+        "venue_confirmed": true,
+        "signals": [
+          "rivalry",
+          "unusual venue"
+        ],
+        "significance": 94.0,
+        "experience": 95.0,
+        "family": 72.0,
+        "atmosphere": "electric",
+        "color": "orange",
+        "evidence": [
+          {
+            "id": "fixture-sf-giants",
+            "claim": "Illustrative fixture: San Francisco Giants vs. Los Angeles Dodgers; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+            "category": "fixture",
+            "source_id": "fixture-sf-giants",
+            "source_title": "Illustrative scenario assumptions",
+            "source_url": "/api/demo/fixtures/sf-giants",
+            "authority": "illustrative",
+            "retrieved_at": "2026-09-12T21:00:00Z",
+            "effective_date": null,
+            "freshness": "illustrative",
+            "confidence": 0.5,
+            "retrieval_score": null,
+            "venue": null,
+            "event_id": null,
+            "event_type": null,
+            "field": null,
+            "value": null
+          }
+        ]
+      },
+      "rank": 3,
+      "score": {
+        "factors": {
+          "user_fit": 94.0,
+          "significance": 94.0,
+          "experience": 95.0,
+          "convenience": null,
+          "value": null,
+          "personal_needs": null
+        },
+        "weights": {
+          "user_fit": 0.416667,
+          "significance": 0.333333,
+          "experience": 0.25,
+          "convenience": 0.0,
+          "value": 0.0,
+          "personal_needs": 0.0
+        },
+        "opportunity_score": 94.2,
+        "evidence_confidence": 65,
+        "missing_factors": [
+          "convenience",
+          "value",
+          "personal_needs"
+        ],
+        "rationale": {
+          "user_fit": "Deterministic from validated preferences and cited inputs.",
+          "significance": "Editorial fixture rubric, not a live competitive statistic.",
+          "experience": "Deterministic from validated preferences and cited inputs.",
+          "convenience": "Unavailable or not relevant; remaining weights normalized proportionally.",
+          "value": "Budget remaining after the modeled cost; not a ticket availability guarantee.",
+          "personal_needs": "Unavailable or not relevant; remaining weights normalized proportionally."
+        }
+      },
+      "distance_miles": 41.0,
+      "estimated_total": 195.0,
+      "explanation": "San Francisco Giants vs. Los Angeles Dodgers scores 94/100 for these preferences. No backpacks. Other bags must be smaller than 16 \u00d7 16 \u00d7 8 inches.",
+      "why_it_matters": [
+        "No backpacks. Other bags must be smaller than 16 \u00d7 16 \u00d7 8 inches."
+      ],
+      "why_it_fits": [
+        "41.0 straight-line miles from San Jose.",
+        "$195 illustrative outing estimate for 2 people."
+      ],
+      "tradeoffs": [
+        "Date, matchup and prices are illustrative; use official listings to plan a real visit.",
+        "Distance is straight-line, not driving distance or travel time.",
+        "Outing estimate includes a $65 scenario allowance for fees, food and transport; actual costs vary."
+      ],
+      "guide": {
+        "policy": {
+          "venue": "Oracle Park",
+          "fields": {
+            "bags": {
+              "id": "oracle-bags:0",
+              "claim": "No backpacks. Other bags must be smaller than 16 \u00d7 16 \u00d7 8 inches.",
+              "category": "policy",
+              "source_id": "oracle-bags",
+              "source_title": "Oracle Park bags",
+              "source_url": "https://www.mlb.com/giants/ballpark/information/guide",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.4737,
+              "venue": "Oracle Park",
+              "event_id": null,
+              "event_type": null,
+              "field": "bags",
+              "value": null
+            }
+          },
+          "conflicts": [],
+          "warnings": [
+            "Outside food: not verified in the current corpus.",
+            "Water: not verified in the current corpus.",
+            "Exceptions: not verified in the current corpus.",
+            "Prohibited: not verified in the current corpus.",
+            "Reentry: not verified in the current corpus."
+          ],
+          "last_verified": "2026-09-12"
+        },
+        "food": [],
+        "arrival": [
+          "Download your mobile tickets before arrival. Ticket screenshots are not accepted."
+        ],
+        "warnings": [
+          "Outside food: not verified in the current corpus.",
+          "Water: not verified in the current corpus.",
+          "Exceptions: not verified in the current corpus.",
+          "Prohibited: not verified in the current corpus.",
+          "Reentry: not verified in the current corpus.",
+          "Dietary options are not verified in the current corpus. Contact the venue.",
+          "These are stored official-source summaries, not event-day verification. Recheck the official guide."
+        ]
+      },
+      "citations": [
+        {
+          "id": "fixture-sf-giants",
+          "claim": "Illustrative fixture: San Francisco Giants vs. Los Angeles Dodgers; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+          "category": "fixture",
+          "source_id": "fixture-sf-giants",
+          "source_title": "Illustrative scenario assumptions",
+          "source_url": "/api/demo/fixtures/sf-giants",
+          "authority": "illustrative",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "illustrative",
+          "confidence": 0.5,
+          "retrieval_score": null,
+          "venue": null,
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": null
+        },
+        {
+          "id": "oracle-bags:0",
+          "claim": "No backpacks. Other bags must be smaller than 16 \u00d7 16 \u00d7 8 inches.",
+          "category": "policy",
+          "source_id": "oracle-bags",
+          "source_title": "Oracle Park bags",
+          "source_url": "https://www.mlb.com/giants/ballpark/information/guide",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.4737,
+          "venue": "Oracle Park",
+          "event_id": null,
+          "event_type": null,
+          "field": "bags",
+          "value": null
+        },
+        {
+          "id": "oracle-tickets:0",
+          "claim": "Download your mobile tickets before arrival. Ticket screenshots are not accepted.",
+          "category": "arrival",
+          "source_id": "oracle-tickets",
+          "source_title": "Prepare your mobile ticket",
+          "source_url": "https://www.mlb.com/giants/tickets/gameday",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3965,
+          "venue": "Oracle Park",
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": null
+        }
+      ],
+      "warnings": [
+        "Outside food: not verified in the current corpus.",
+        "Water: not verified in the current corpus.",
+        "Exceptions: not verified in the current corpus.",
+        "Prohibited: not verified in the current corpus.",
+        "Reentry: not verified in the current corpus.",
+        "Dietary options are not verified in the current corpus. Contact the venue.",
+        "These are stored official-source summaries, not event-day verification. Recheck the official guide."
+      ],
+      "data_mode": "illustrative"
+    }
+  ],
+  "baseline": [
+    {
+      "event_id": "sjsu",
+      "name": "San Jose State vs. Fresno State",
+      "distance_miles": 1.6,
+      "qualifies": true,
+      "personalized_rank": 7
+    },
+    {
+      "event_id": "sj-giants",
+      "name": "San Jose Giants vs. Stockton Ports",
+      "distance_miles": 1.8,
+      "qualifies": true,
+      "personalized_rank": 8
+    },
+    {
+      "event_id": "bay-fc",
+      "name": "Bay FC vs. Angel City FC",
+      "distance_miles": 2.3,
+      "qualifies": true,
+      "personalized_rank": 5
+    },
+    {
+      "event_id": "49ers",
+      "name": "San Francisco 49ers vs. Seattle Seahawks",
+      "distance_miles": 6.4,
+      "qualifies": true,
+      "personalized_rank": 2
+    },
+    {
+      "event_id": "stanford-volleyball",
+      "name": "Stanford vs. Cal \u00b7 Women\u2019s Volleyball",
+      "distance_miles": 16.3,
+      "qualifies": true,
+      "personalized_rank": 6
+    }
+  ],
+  "activity": [
+    {
+      "step": "Understood your outing preferences",
+      "status": "complete",
+      "tool": "parse_user_request",
+      "source_ids": []
+    },
+    {
+      "step": "Found 8 events in the illustrative seasonal sampler",
+      "status": "complete",
+      "tool": "search_events",
+      "source_ids": []
+    },
+    {
+      "step": "Excluded 0 outside your constraints",
+      "status": "complete",
+      "tool": "qualify_events",
+      "source_ids": []
+    },
+    {
+      "step": "Retrieved rivalry and local context",
+      "status": "complete",
+      "tool": "retrieve_sports_context",
+      "source_ids": [
+        "biggame-history",
+        "sj-family"
+      ]
+    },
+    {
+      "step": "retrieve_venue_policy: Tool requested an unknown or excluded candidate",
+      "status": "warning",
+      "tool": "retrieve_venue_policy",
+      "source_ids": []
+    },
+    {
+      "step": "Retrieved venue rules and arrival guidance",
+      "status": "complete",
+      "tool": "retrieve_venue_policy",
+      "source_ids": [
+        "bay-arrival",
+        "bay-bags",
+        "bay-exceptions",
+        "bay-outside-food",
+        "bay-prohibited",
+        "bay-reentry",
+        "bay-water",
+        "cal-bags",
+        "cal-food",
+        "levis-access",
+        "levis-bags",
+        "levis-exceptions",
+        "levis-food-rule",
+        "levis-prohibited",
+        "levis-reentry",
+        "levis-water",
+        "levis-water-list",
+        "maples-bags",
+        "oracle-bags",
+        "oracle-tickets",
+        "sj-access",
+        "sj-arrival",
+        "sj-bags",
+        "sj-clutch-entry",
+        "sj-clutch-general",
+        "sj-exceptions",
+        "sj-food-rule",
+        "sj-prohibited",
+        "sj-reentry",
+        "sj-water",
+        "sjsu-bags",
+        "stanford-arrival",
+        "stanford-bags"
+      ]
+    },
+    {
+      "step": "Checked dietary options and menu gaps",
+      "status": "complete",
+      "tool": "retrieve_food_options",
+      "source_ids": [
+        "bay-food",
+        "levis-vegan",
+        "sj-concessions"
+      ]
+    },
+    {
+      "step": "Compared deterministic Opportunity Scores",
+      "status": "complete",
+      "tool": "score_and_rank_events",
+      "source_ids": []
+    },
+    {
+      "step": "Selected 3 recommendations with cited visitor guides",
+      "status": "complete",
+      "tool": "generate_event_guide",
+      "source_ids": []
+    }
+  ],
+  "data_mode": "demo",
+  "agent_active": true,
+  "retrieval_mode": "embeddinggemma",
+  "provider_status": {
+    "ollama": {
+      "reachable": true,
+      "chat_installed": true,
+      "embedding_installed": true
+    },
+    "demo_data": true,
+    "documents": 44,
+    "vector_ready": true,
+    "embedding_model": "embeddinggemma",
+    "chat_model": "qwen3:8b",
+    "app_mode": "demo",
+    "agent_ready": true,
+    "ticketmaster": "not configured",
+    "sportradar": "not configured",
+    "setup": [
+      "ollama serve",
+      "ollama pull qwen3:8b",
+      "ollama pull embeddinggemma",
+      "cd backend && uv run python -m scripts.ingest"
+    ],
+    "investigation_plan": [
+      {
+        "tool": "retrieve_sports_context",
+        "arguments": {
+          "event_ids": [
+            "sj-giants",
+            "sf-giants",
+            "49ers",
+            "big-game",
+            "sjsu",
+            "stanford-volleyball",
+            "bay-fc",
+            "stanford-football"
+          ],
+          "query": "iconic, rivalry, local tradition, strong atmosphere"
+        },
+        "ok": true
+      },
+      {
+        "tool": "retrieve_venue_policy",
+        "arguments": {
+          "event_ids": [
+            "sj-giants",
+            "sf-giants",
+            "49ers",
+            "big-game",
+            "sjsu",
+            "stan,ford-volleyball",
+            "bay-fc",
+            "stanford-football"
+          ],
+          "query": "bag, food, water, re-entry, arrival, accessibility"
+        },
+        "ok": false
+      },
+      {
+        "tool": "retrieve_venue_policy",
+        "arguments": {
+          "event_ids": [
+            "sj-giants",
+            "sf-giants",
+            "49ers",
+            "big-game",
+            "sjsu",
+            "stanford-volleyball",
+            "bay-fc",
+            "stanford-football"
+          ],
+          "query": "bag, food, water, re-entry, arrival, accessibility"
+        },
+        "ok": true
+      },
+      {
+        "tool": "retrieve_food_options",
+        "arguments": {
+          "event_ids": [
+            "sj-giants",
+            "sf-giants",
+            "49ers",
+            "big-game",
+            "sjsu",
+            "stanford-volleyball",
+            "bay-fc",
+            "stanford-football"
+          ],
+          "query": "dietary, missing-menu"
+        },
+        "ok": true
+      }
+    ],
+    "tool_calls": 10,
+    "tool_limit": 10,
+    "events": "demo",
+    "sports": "demo"
+  },
+  "warnings": [
+    "retrieve_venue_policy: Tool requested an unknown or excluded candidate",
+    "Illustrative seasonal sampler: fixtures, dates, prices and editorial score inputs are authored demo assumptions. No live inventory or ticket availability."
+  ],
+  "processing_ms": 19652,
+  "created_at": "2026-09-12T23:31:01.343967Z"
+}

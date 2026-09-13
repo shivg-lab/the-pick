@@ -1,0 +1,290 @@
+1
+00:00:00,686 --> 00:00:06,145
+Meet The Pick, your personal Bay Area sports
+concierge. It helps you choose an experience,
+
+2
+00:00:06,145 --> 00:00:09,421
+understand the tradeoffs, and prepare for the
+whole outing.
+
+3
+00:00:11,322 --> 00:00:16,948
+First, a family day on a budget. We are
+starting in San Jose with two children, a
+
+4
+00:00:16,948 --> 00:00:20,588
+hundred and twenty dollars total, and a
+preference for vegetarian food.
+
+5
+00:00:21,557 --> 00:00:27,588
+The preferences panel lets you adjust your
+starting point, budget, travel radius, and
+
+6
+00:00:27,588 --> 00:00:32,691
+party size. More options cover dates, sports,
+dietary needs, and accessibility.
+
+7
+00:00:33,990 --> 00:00:38,873
+The local AI investigates qualifying events
+and supporting evidence. You can follow its
+
+8
+00:00:38,873 --> 00:00:42,628
+progress. The waiting time in this recording
+has been shortened.
+
+9
+00:00:47,050 --> 00:00:52,195
+The family recommendation is the San Jose
+Giants at Excite Ballpark. The winning card
+
+10
+00:00:52,195 --> 00:00:55,503
+explains why this smaller local experience
+fits the request.
+
+11
+00:00:57,060 --> 00:01:03,218
+Scroll through the event details: the venue,
+date, distance, ticket price, and total outing
+
+12
+00:01:03,218 --> 00:01:07,616
+estimate. The card keeps evidence confidence
+and practical tradeoffs visible.
+
+13
+00:01:09,496 --> 00:01:14,247
+The Opportunity Score is transparent. Open the
+breakdown to see the factors and their
+
+14
+00:01:14,247 --> 00:01:18,318
+weights. Evidence confidence is shown
+separately from how well an outing fits.
+
+15
+00:01:20,196 --> 00:01:26,193
+The two smaller alternatives give you other
+ways to spend the day. Each has its own score,
+
+16
+00:01:26,193 --> 00:01:27,604
+price, venue, and explanation.
+
+17
+00:01:29,169 --> 00:01:34,818
+Preparation starts right beneath the pick,
+with a quick preview of bags, food, arrival,
+
+18
+00:01:34,818 --> 00:01:37,643
+parking, seating convenience, and what to
+wear.
+
+19
+00:01:39,522 --> 00:01:45,180
+Open the full venue guide for the details. Bag
+and outside-food policies include official
+
+20
+00:01:45,180 --> 00:01:49,222
+links. Conflicting clutch-size guidance is
+flagged rather than silently resolved.
+
+21
+00:01:50,785 --> 00:01:55,249
+The essentials also cover water bottles,
+children's and medical needs, prohibited
+
+22
+00:01:55,249 --> 00:02:00,118
+items, and re-entry. Missing information is
+clearly marked for you to confirm.
+
+23
+00:02:01,987 --> 00:02:06,760
+Food guidance lists the available concessions
+evidence. A vegetarian preference is not
+
+24
+00:02:06,760 --> 00:02:11,532
+treated as a guarantee: when ingredients are
+unverified, the guide says so.
+
+25
+00:02:13,094 --> 00:02:17,551
+Arrival advice helps you plan the visit.
+Distances are straight-line estimates, with
+
+26
+00:02:17,551 --> 00:02:21,264
+driving times and event-day arrangements left
+for you to verify.
+
+27
+00:02:24,046 --> 00:02:29,153
+Parking guidance identifies the official
+options and where to check them. Here, the
+
+28
+00:02:29,153 --> 00:02:33,473
+source still describes an older season, so
+current arrangements need confirmation.
+
+29
+00:02:35,035 --> 00:02:40,001
+Seating guidance highlights accessible seating
+and nearby restrooms where verified. Practical
+
+30
+00:02:40,001 --> 00:02:45,870
+tips help you compare aisle access, seat
+backs, steps, and proximity to amenities.
+
+31
+00:02:47,435 --> 00:02:53,183
+The weather card shows a real forecast for
+this venue and the illustrative event date:
+
+32
+00:02:53,183 --> 00:02:57,014
+temperature, feels-like conditions, rain
+chance, wind, and the retrieval time.
+
+33
+00:02:58,679 --> 00:03:03,955
+Clothing suggestions respond to the forecast,
+with layers for cooler conditions and rain
+
+34
+00:03:03,955 --> 00:03:08,419
+protection when needed. Official umbrella and
+clothing restrictions appear alongside the
+
+35
+00:03:08,419 --> 00:03:08,824
+advice.
+
+36
+00:03:10,704 --> 00:03:16,075
+The Sources tab lets you inspect the evidence
+behind the outing, including official links
+
+37
+00:03:16,075 --> 00:03:19,528
+and review dates. Illustrative scenario
+assumptions are labeled separately.
+
+38
+00:03:21,094 --> 00:03:26,426
+You can rate the suggestion, say whether you
+would attend, or report a correction. This
+
+39
+00:03:26,426 --> 00:03:28,204
+prototype saves that feedback locally.
+
+40
+00:03:31,962 --> 00:03:36,864
+Now let's switch to the iconic Bay Area
+experience. This search removes the budget and
+
+41
+00:03:36,864 --> 00:03:39,806
+distance limits and asks for a memorable
+sports occasion.
+
+42
+00:03:40,779 --> 00:03:45,661
+The agent investigates again for this new
+goal, bringing sports history, rivalry, and
+
+43
+00:03:45,661 --> 00:03:49,416
+significance into the comparison. We shorten
+the wait here too.
+
+44
+00:03:53,836 --> 00:03:59,137
+The recommendation changes to Cal versus
+Stanford, the Big Game. The app explains the
+
+45
+00:03:59,137 --> 00:04:02,544
+rivalry's significance and why it fits an
+iconic experience.
+
+46
+00:04:04,108 --> 00:04:08,317
+Scroll through this pick's details and
+tradeoffs. You can inspect its score and
+
+47
+00:04:08,317 --> 00:04:12,202
+estimated cost before deciding whether the
+bigger occasion is right for you.
+
+48
+00:04:14,074 --> 00:04:19,439
+The full guide now belongs to California
+Memorial Stadium. Bag, food, water, and entry
+
+49
+00:04:19,439 --> 00:04:23,653
+guidance stays tied to this venue, with any
+gaps clearly visible.
+
+50
+00:04:26,486 --> 00:04:31,680
+Parking and seating guidance changes with the
+venue too. Check official parking options,
+
+51
+00:04:31,680 --> 00:04:35,275
+accessible routes, and the seating details
+before buying tickets.
+
+52
+00:04:36,890 --> 00:04:42,059
+This November event is outside the forecast
+window. The app does not substitute today's
+
+53
+00:04:42,059 --> 00:04:46,489
+weather. It shows general clothing tips until
+a useful forecast becomes available.
+
+54
+00:04:48,370 --> 00:04:53,360
+The iconic search also provides two
+alternatives, so you can compare other
+
+55
+00:04:53,360 --> 00:04:55,439
+experiences against the top recommendation.
+
+56
+00:04:57,002 --> 00:05:02,487
+From a family afternoon to a landmark rivalry,
+The Pick connects discovery, decision, and
+
+57
+00:05:02,487 --> 00:05:06,013
+preparation. We do the homework. You make the
+memories.
+
+58
+00:05:06,668 --> 00:05:12,789
+This recording uses the real local app and AI
+agent. Event dates, matchups, and prices are
+
+59
+00:05:12,789 --> 00:05:16,232
+illustrative. Check official listings before
+planning a real visit.

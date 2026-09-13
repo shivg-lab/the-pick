@@ -1,0 +1,14 @@
+{
+  "status": "available",
+  "message": "Outdoor forecast around the start time; the 3-hour planning window is not an estimate of event duration.",
+  "source_url": "https://open-meteo.com/",
+  "retrieved_at": "2026-09-13T01:57:32.106276Z",
+  "window_start": "2026-09-20T00:00:00Z",
+  "window_end": "2026-09-20T03:00:00Z",
+  "temperature_min_f": 68.1,
+  "temperature_max_f": 80.5,
+  "feels_like_min_f": 64.8,
+  "feels_like_max_f": 74.4,
+  "rain_probability_max": 0.0,
+  "wind_max_mph": 11.6
+}

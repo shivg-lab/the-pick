@@ -1,0 +1,51 @@
+# Local credentials stay private; only the blank example template is shareable.
+.env
+.env.*
+!.env.example
+.runtime/
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+node_modules/
+.next/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.log
+backend/data/*.sqlite*
+backend/data/knowledge/*index.json
+.DS_Store
+
+# Credentials, editor state, and local backups.
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.netrc
+.pypirc
+.aws/
+.ssh/
+.idea/
+.vscode/
+*.env
+*.env.*
+!.env.example
+*.sqlite*
+*.db
+*.bak
+*.pyc
+
+# Recording intermediates can be regenerated; keep the finished demos.
+docs/demo-video*/raw/
+docs/demo-video*/audio/
+docs/demo-video*/rehearsal/
+docs/demo-video*/qa/
+docs/demo-video*/recording.json
+docs/demo-video*/export.json
+docs/demo-video*/narration.json
+docs/demo-video*/narration-track.wav
+
+# Upload archives and reports stay on this machine.
+dist/

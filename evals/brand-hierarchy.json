@@ -1,0 +1,51 @@
+[
+  {
+    "width": 1440,
+    "brand": 88,
+    "headline": 46,
+    "overflow": false,
+    "overlap": false
+  },
+  {
+    "width": 1024,
+    "brand": 88,
+    "headline": 34,
+    "overflow": false,
+    "overlap": false
+  },
+  {
+    "width": 900,
+    "brand": 72,
+    "headline": 34,
+    "overflow": false,
+    "overlap": false
+  },
+  {
+    "width": 768,
+    "brand": 72,
+    "headline": 34,
+    "overflow": false,
+    "overlap": false
+  },
+  {
+    "width": 600,
+    "brand": 60,
+    "headline": 30,
+    "overflow": false,
+    "overlap": false
+  },
+  {
+    "width": 390,
+    "brand": 58.5,
+    "headline": 30,
+    "overflow": false,
+    "overlap": false
+  },
+  {
+    "width": 320,
+    "brand": 48,
+    "headline": 30,
+    "overflow": false,
+    "overlap": false
+  }
+]

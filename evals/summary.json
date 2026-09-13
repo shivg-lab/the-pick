@@ -1,0 +1,258 @@
+{
+  "scenarios": 24,
+  "passed": 24,
+  "hard_constraint_satisfaction": 1.0,
+  "recommendations_checked": 30,
+  "citation_metadata_completeness": 1.0,
+  "venue_metadata_relevance": 1.0,
+  "reranking_consistency": 1.0,
+  "median_fallback_latency_ms": 1,
+  "live_event_accuracy": "Not measured: fixtures are illustrative.",
+  "semantic_relevance": "Venue metadata precision measured; human semantic relevance judgments not collected.",
+  "unsupported_claim_rate": "Not human-audited. Explanations use exact supplied source claims; fixture assumptions are labeled.",
+  "user_preference_vs_baseline": "Not measured: collect human feedback before claiming preference lift.",
+  "rows": [
+    {
+      "id": "family",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 2,
+      "ranking": [
+        "sj-giants",
+        "sjsu",
+        "stanford-volleyball"
+      ],
+      "top_score": 71.2,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "traveler",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 1,
+      "ranking": [
+        "sf-giants",
+        "big-game"
+      ],
+      "top_score": 92.8,
+      "baseline_first": "sf-giants"
+    },
+    {
+      "id": "first_time",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 2,
+      "ranking": [
+        "big-game",
+        "49ers",
+        "sf-giants"
+      ],
+      "top_score": 99.2,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "strict_budget",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 1,
+      "ranking": [
+        "stanford-volleyball",
+        "sj-giants"
+      ],
+      "top_score": 60.6,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "strict_radius",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 1,
+      "ranking": [
+        "sjsu",
+        "bay-fc",
+        "sj-giants"
+      ],
+      "top_score": 68.1,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "preferred_sport",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 0,
+      "ranking": [
+        "stanford-volleyball"
+      ],
+      "top_score": 87.2,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "preferred_team",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 0,
+      "ranking": [
+        "49ers"
+      ],
+      "top_score": 98.2,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "local_openness",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 1,
+      "ranking": [
+        "stanford-volleyball",
+        "sj-giants"
+      ],
+      "top_score": 66.6,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "iconic",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 1,
+      "ranking": [
+        "big-game",
+        "49ers",
+        "sf-giants"
+      ],
+      "top_score": 99.2,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "rivalry",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 1,
+      "ranking": [
+        "big-game",
+        "49ers",
+        "sf-giants"
+      ],
+      "top_score": 99.2,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "dietary_required",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 1,
+      "ranking": [
+        "49ers"
+      ],
+      "top_score": 97.6,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "accessibility",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 1,
+      "ranking": [
+        "sj-giants"
+      ],
+      "top_score": 71.3,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "no_qualifying_events",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 0,
+      "ranking": [],
+      "top_score": null,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "date_range",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 1,
+      "ranking": [
+        "big-game",
+        "stanford-football"
+      ],
+      "top_score": 98.7,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "professional_only",
+      "passed": true,
+      "kind": "deterministic fallback scenario",
+      "duration_ms": 1,
+      "ranking": [
+        "49ers",
+        "sf-giants",
+        "bay-fc"
+      ],
+      "top_score": 96.9,
+      "baseline_first": "sjsu"
+    },
+    {
+      "id": "missing_price",
+      "passed": true,
+      "kind": "guardrail test",
+      "duration_ms": 207,
+      "detail": "Passed"
+    },
+    {
+      "id": "stale_policy",
+      "passed": true,
+      "kind": "guardrail test",
+      "duration_ms": 208,
+      "detail": "Passed"
+    },
+    {
+      "id": "conflicting_policies",
+      "passed": true,
+      "kind": "guardrail test",
+      "duration_ms": 207,
+      "detail": "Passed"
+    },
+    {
+      "id": "irrelevant_rag_result",
+      "passed": true,
+      "kind": "guardrail test",
+      "duration_ms": 271,
+      "detail": "Passed"
+    },
+    {
+      "id": "event_provider_failure",
+      "passed": true,
+      "kind": "guardrail test",
+      "duration_ms": 367,
+      "detail": "Passed"
+    },
+    {
+      "id": "sports_provider_failure",
+      "passed": true,
+      "kind": "guardrail test",
+      "duration_ms": 377,
+      "detail": "Passed"
+    },
+    {
+      "id": "malformed_ollama",
+      "passed": true,
+      "kind": "guardrail test",
+      "duration_ms": 543,
+      "detail": "Passed"
+    },
+    {
+      "id": "tool_selection",
+      "passed": true,
+      "kind": "guardrail test",
+      "duration_ms": 389,
+      "detail": "Passed"
+    },
+    {
+      "id": "intent_grounding",
+      "passed": true,
+      "kind": "guardrail test",
+      "duration_ms": 369,
+      "detail": "Passed"
+    }
+  ]
+}

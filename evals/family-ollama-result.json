@@ -1,0 +1,1243 @@
+{
+  "request_id": "31e42cbb-2024-4a91-a34e-74e24f08e371",
+  "parsed_intent": {
+    "raw_query": "I am in San Jose with two children, have a total budget of $120, want something nearby and prefer vegetarian food options.",
+    "location": "San Jose",
+    "coordinates": {
+      "lat": 37.3382,
+      "lon": -121.8863
+    },
+    "date_from": null,
+    "date_to": null,
+    "radius_miles": 25.0,
+    "sports": [],
+    "teams": [],
+    "budget": 120.0,
+    "budget_type": "total",
+    "adults": 2,
+    "children": 2,
+    "family_friendly": true,
+    "atmosphere": "relaxed",
+    "local_openness": true,
+    "dietary": [
+      "vegetarian"
+    ],
+    "dietary_required": false,
+    "accessibility": [],
+    "first_time": false,
+    "additional_constraints": []
+  },
+  "candidates_considered": 8,
+  "exclusions": [
+    {
+      "event_id": "sf-giants",
+      "name": "San Francisco Giants vs. Los Angeles Dodgers",
+      "reason": "Outside your radius; Over your budget"
+    },
+    {
+      "event_id": "49ers",
+      "name": "San Francisco 49ers vs. Seattle Seahawks",
+      "reason": "Over your budget"
+    },
+    {
+      "event_id": "big-game",
+      "name": "Cal vs. Stanford \u00b7 The Big Game",
+      "reason": "Outside your radius; Over your budget"
+    },
+    {
+      "event_id": "bay-fc",
+      "name": "Bay FC vs. Angel City FC",
+      "reason": "Over your budget"
+    },
+    {
+      "event_id": "stanford-football",
+      "name": "Stanford vs. Notre Dame",
+      "reason": "Over your budget"
+    }
+  ],
+  "recommendations": [
+    {
+      "event": {
+        "id": "sj-giants",
+        "provider": "demo",
+        "provider_event_id": "sj-giants",
+        "name": "San Jose Giants vs. Stockton Ports",
+        "sport": "baseball",
+        "league": "MiLB",
+        "level": "local",
+        "teams": [
+          "San Jose Giants",
+          "Stockton Ports"
+        ],
+        "start_time": "2026-09-19T17:00:00-07:00",
+        "timezone": "America/Los_Angeles",
+        "venue": "Excite Ballpark",
+        "city": "San Jose",
+        "state": "CA",
+        "coordinates": {
+          "lat": 37.3215,
+          "lon": -121.8623
+        },
+        "price_min": 14.0,
+        "price_max": 24.0,
+        "price_basis": "illustrative",
+        "outing_extra": 36.0,
+        "ticket_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+        "source_url": "/api/demo/fixtures/sj-giants",
+        "image": null,
+        "retrieved_at": "2026-09-12T21:00:00Z",
+        "verification": "illustrative",
+        "data_mode": "illustrative",
+        "public_access": true,
+        "spectator_event": true,
+        "date_confirmed": true,
+        "venue_confirmed": true,
+        "signals": [
+          "family experience",
+          "local tradition"
+        ],
+        "significance": 52.0,
+        "experience": 78.0,
+        "family": 96.0,
+        "atmosphere": "relaxed",
+        "color": "orange",
+        "evidence": [
+          {
+            "id": "fixture-sj-giants",
+            "claim": "Illustrative fixture: San Jose Giants vs. Stockton Ports; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+            "category": "fixture",
+            "source_id": "fixture-sj-giants",
+            "source_title": "Illustrative scenario assumptions",
+            "source_url": "/api/demo/fixtures/sj-giants",
+            "authority": "illustrative",
+            "retrieved_at": "2026-09-12T21:00:00Z",
+            "effective_date": null,
+            "freshness": "illustrative",
+            "confidence": 0.5,
+            "retrieval_score": null,
+            "venue": null,
+            "event_id": null,
+            "event_type": null,
+            "field": null,
+            "value": null
+          }
+        ]
+      },
+      "rank": 1,
+      "score": {
+        "factors": {
+          "user_fit": 98.0,
+          "significance": 52.0,
+          "experience": 78.0,
+          "convenience": 92.99142949018481,
+          "value": 23.33333333333333,
+          "personal_needs": null
+        },
+        "weights": {
+          "user_fit": 0.277778,
+          "significance": 0.222222,
+          "experience": 0.166667,
+          "convenience": 0.166667,
+          "value": 0.166667,
+          "personal_needs": 0.0
+        },
+        "opportunity_score": 71.2,
+        "evidence_confidence": 75,
+        "missing_factors": [
+          "personal_needs"
+        ],
+        "rationale": {
+          "user_fit": "Deterministic from validated preferences and cited inputs.",
+          "significance": "Editorial fixture rubric, not a live competitive statistic.",
+          "experience": "Deterministic from validated preferences and cited inputs.",
+          "convenience": "Deterministic from validated preferences and cited inputs.",
+          "value": "Budget remaining after the modeled cost; not a ticket availability guarantee.",
+          "personal_needs": "Unavailable or not relevant; remaining weights normalized proportionally."
+        }
+      },
+      "distance_miles": 1.8,
+      "estimated_total": 92.0,
+      "explanation": "San Jose Giants vs. Stockton Ports scores 71/100 for these preferences. Outside food is generally prohibited. Exceptions include baby food, formula, medication and special needs. The guide lists pizza, tacos and popcorn. Vegetarian ingredients and allergen suitability are not specified.",
+      "why_it_matters": [
+        "Outside food is generally prohibited. Exceptions include baby food, formula, medication and special needs.",
+        "The guide lists pizza, tacos and popcorn. Vegetarian ingredients and allergen suitability are not specified.",
+        "The San Jose Giants describe their baseball experience as family-oriented. A Family Fun Zone is near the main entrance."
+      ],
+      "why_it_fits": [
+        "1.8 straight-line miles from San Jose.",
+        "$92 illustrative outing estimate for 4 people."
+      ],
+      "tradeoffs": [
+        "Your dietary preference is not verified. Check with concessions before committing.",
+        "Date, matchup and prices are illustrative; use official listings to plan a real visit.",
+        "Distance is straight-line, not driving distance or travel time.",
+        "Outing estimate includes a $36 scenario allowance for fees, food and transport; actual costs vary.",
+        "Official sources disagree about clutch dimensions. Confirm with the venue before attending."
+      ],
+      "guide": {
+        "policy": {
+          "venue": "Excite Ballpark",
+          "fields": {
+            "clutch_dimensions": {
+              "id": "sj-clutch-entry:0",
+              "claim": "Entrance procedures list a 5 \u00d7 9 inch clutch exception and a 12 \u00d7 6 \u00d7 12 inch clear-bag limit.",
+              "category": "policy",
+              "source_id": "sj-clutch-entry",
+              "source_title": "Clutch size in entrance procedures",
+              "source_url": "https://www.milb.com/san-jose/ballpark/play-it-safe-policies",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.4533,
+              "venue": "Excite Ballpark",
+              "event_id": null,
+              "event_type": null,
+              "field": "clutch_dimensions",
+              "value": {
+                "inches": [
+                  5,
+                  9
+                ]
+              }
+            },
+            "exceptions": {
+              "id": "sj-exceptions:0",
+              "claim": "Medical necessities, including diaper bags, are exceptions to the clear-bag rule.",
+              "category": "policy",
+              "source_id": "sj-exceptions",
+              "source_title": "Children and medical needs",
+              "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.4279,
+              "venue": "Excite Ballpark",
+              "event_id": null,
+              "event_type": null,
+              "field": "exceptions",
+              "value": null
+            },
+            "outside_food": {
+              "id": "sj-food-rule:0",
+              "claim": "Outside food is generally prohibited. Exceptions include baby food, formula, medication and special needs.",
+              "category": "policy",
+              "source_id": "sj-food-rule",
+              "source_title": "Excite Ballpark outside food",
+              "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.3985,
+              "venue": "Excite Ballpark",
+              "event_id": null,
+              "event_type": null,
+              "field": "outside_food",
+              "value": null
+            },
+            "reentry": {
+              "id": "sj-reentry:0",
+              "claim": "Obtain a re-entry stamp near the main gate. On bobblehead giveaway days, re-entry starts after first pitch.",
+              "category": "policy",
+              "source_id": "sj-reentry",
+              "source_title": "Excite Ballpark re-entry",
+              "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.3978,
+              "venue": "Excite Ballpark",
+              "event_id": null,
+              "event_type": null,
+              "field": "reentry",
+              "value": null
+            },
+            "bags": {
+              "id": "sj-bags:0",
+              "claim": "Clear bags are required, with exceptions for small clutch purses and medically necessary items.",
+              "category": "policy",
+              "source_id": "sj-bags",
+              "source_title": "Excite clear-bag policy",
+              "source_url": "https://www.milb.com/san-jose/ballpark/play-it-safe-policies",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.3921,
+              "venue": "Excite Ballpark",
+              "event_id": null,
+              "event_type": null,
+              "field": "bags",
+              "value": null
+            },
+            "water": {
+              "id": "sj-water:0",
+              "claim": "Unopened soft-sided water bottles and empty canteens are exceptions to the beverage restriction.",
+              "category": "policy",
+              "source_id": "sj-water",
+              "source_title": "Excite Ballpark water rules",
+              "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.3792,
+              "venue": "Excite Ballpark",
+              "event_id": null,
+              "event_type": null,
+              "field": "water",
+              "value": null
+            },
+            "prohibited": {
+              "id": "sj-prohibited:0",
+              "claim": "Weapons, glass containers, hard-sided coolers and noisemakers are prohibited.",
+              "category": "policy",
+              "source_id": "sj-prohibited",
+              "source_title": "Prohibited at Excite",
+              "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.3528,
+              "venue": "Excite Ballpark",
+              "event_id": null,
+              "event_type": null,
+              "field": "prohibited",
+              "value": null
+            }
+          },
+          "conflicts": [
+            "Official sources disagree about clutch dimensions. Confirm with the venue before attending."
+          ],
+          "warnings": [],
+          "last_verified": "2026-09-12"
+        },
+        "food": [
+          {
+            "venue": "Excite Ballpark",
+            "vendor": "Pizza Stand / Third Base Taco Concession Booth",
+            "location": null,
+            "cuisine": "Concessions",
+            "vegetarian": null,
+            "vegan": null,
+            "gluten_free": null,
+            "allergen_information": "Allergen suitability and cross-contact are not verified. Ask the venue.",
+            "evidence": {
+              "id": "sj-concessions:0",
+              "claim": "The guide lists pizza, tacos and popcorn. Vegetarian ingredients and allergen suitability are not specified.",
+              "category": "food",
+              "source_id": "sj-concessions",
+              "source_title": "Concessions at Excite",
+              "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.4565,
+              "venue": "Excite Ballpark",
+              "event_id": null,
+              "event_type": null,
+              "field": null,
+              "value": {
+                "vendor": "Pizza Stand / Third Base Taco Concession Booth",
+                "vegetarian": null,
+                "vegan": null,
+                "gluten_free": null
+              }
+            }
+          }
+        ],
+        "arrival": [
+          "General gates open one hour before game time."
+        ],
+        "warnings": [
+          "Official sources disagree about clutch dimensions. Confirm with the venue before attending.",
+          "These are stored official-source summaries, not event-day verification. Recheck the official guide."
+        ]
+      },
+      "citations": [
+        {
+          "id": "fixture-sj-giants",
+          "claim": "Illustrative fixture: San Jose Giants vs. Stockton Ports; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+          "category": "fixture",
+          "source_id": "fixture-sj-giants",
+          "source_title": "Illustrative scenario assumptions",
+          "source_url": "/api/demo/fixtures/sj-giants",
+          "authority": "illustrative",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "illustrative",
+          "confidence": 0.5,
+          "retrieval_score": null,
+          "venue": null,
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": null
+        },
+        {
+          "id": "sj-clutch-entry:0",
+          "claim": "Entrance procedures list a 5 \u00d7 9 inch clutch exception and a 12 \u00d7 6 \u00d7 12 inch clear-bag limit.",
+          "category": "policy",
+          "source_id": "sj-clutch-entry",
+          "source_title": "Clutch size in entrance procedures",
+          "source_url": "https://www.milb.com/san-jose/ballpark/play-it-safe-policies",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.4533,
+          "venue": "Excite Ballpark",
+          "event_id": null,
+          "event_type": null,
+          "field": "clutch_dimensions",
+          "value": {
+            "inches": [
+              5,
+              9
+            ]
+          }
+        },
+        {
+          "id": "sj-exceptions:0",
+          "claim": "Medical necessities, including diaper bags, are exceptions to the clear-bag rule.",
+          "category": "policy",
+          "source_id": "sj-exceptions",
+          "source_title": "Children and medical needs",
+          "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.4279,
+          "venue": "Excite Ballpark",
+          "event_id": null,
+          "event_type": null,
+          "field": "exceptions",
+          "value": null
+        },
+        {
+          "id": "sj-food-rule:0",
+          "claim": "Outside food is generally prohibited. Exceptions include baby food, formula, medication and special needs.",
+          "category": "policy",
+          "source_id": "sj-food-rule",
+          "source_title": "Excite Ballpark outside food",
+          "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3985,
+          "venue": "Excite Ballpark",
+          "event_id": null,
+          "event_type": null,
+          "field": "outside_food",
+          "value": null
+        },
+        {
+          "id": "sj-reentry:0",
+          "claim": "Obtain a re-entry stamp near the main gate. On bobblehead giveaway days, re-entry starts after first pitch.",
+          "category": "policy",
+          "source_id": "sj-reentry",
+          "source_title": "Excite Ballpark re-entry",
+          "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3978,
+          "venue": "Excite Ballpark",
+          "event_id": null,
+          "event_type": null,
+          "field": "reentry",
+          "value": null
+        },
+        {
+          "id": "sj-bags:0",
+          "claim": "Clear bags are required, with exceptions for small clutch purses and medically necessary items.",
+          "category": "policy",
+          "source_id": "sj-bags",
+          "source_title": "Excite clear-bag policy",
+          "source_url": "https://www.milb.com/san-jose/ballpark/play-it-safe-policies",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3921,
+          "venue": "Excite Ballpark",
+          "event_id": null,
+          "event_type": null,
+          "field": "bags",
+          "value": null
+        },
+        {
+          "id": "sj-water:0",
+          "claim": "Unopened soft-sided water bottles and empty canteens are exceptions to the beverage restriction.",
+          "category": "policy",
+          "source_id": "sj-water",
+          "source_title": "Excite Ballpark water rules",
+          "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3792,
+          "venue": "Excite Ballpark",
+          "event_id": null,
+          "event_type": null,
+          "field": "water",
+          "value": null
+        },
+        {
+          "id": "sj-arrival:0",
+          "claim": "General gates open one hour before game time.",
+          "category": "arrival",
+          "source_id": "sj-arrival",
+          "source_title": "Arrive for the opening gates",
+          "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3775,
+          "venue": "Excite Ballpark",
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": null
+        },
+        {
+          "id": "sj-prohibited:0",
+          "claim": "Weapons, glass containers, hard-sided coolers and noisemakers are prohibited.",
+          "category": "policy",
+          "source_id": "sj-prohibited",
+          "source_title": "Prohibited at Excite",
+          "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3528,
+          "venue": "Excite Ballpark",
+          "event_id": null,
+          "event_type": null,
+          "field": "prohibited",
+          "value": null
+        },
+        {
+          "id": "sj-access:0",
+          "claim": "Wheelchair and companion seats are along the third-base line; purchase an accessible-seating ticket.",
+          "category": "accessibility",
+          "source_id": "sj-access",
+          "source_title": "Accessible seating at Excite",
+          "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3109,
+          "venue": "Excite Ballpark",
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": {
+            "wheelchair": true
+          }
+        },
+        {
+          "id": "sj-clutch-general:0",
+          "claim": "The A\u2013Z guide limits clutch purses to 4.5 \u00d7 6.5 inches.",
+          "category": "policy",
+          "source_id": "sj-clutch-general",
+          "source_title": "Clutch size in the A\u2013Z guide",
+          "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.2424,
+          "venue": "Excite Ballpark",
+          "event_id": null,
+          "event_type": null,
+          "field": "clutch_dimensions",
+          "value": {
+            "inches": [
+              4.5,
+              6.5
+            ]
+          }
+        },
+        {
+          "id": "sj-concessions:0",
+          "claim": "The guide lists pizza, tacos and popcorn. Vegetarian ingredients and allergen suitability are not specified.",
+          "category": "food",
+          "source_id": "sj-concessions",
+          "source_title": "Concessions at Excite",
+          "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.4565,
+          "venue": "Excite Ballpark",
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": {
+            "vendor": "Pizza Stand / Third Base Taco Concession Booth",
+            "vegetarian": null,
+            "vegan": null,
+            "gluten_free": null
+          }
+        },
+        {
+          "id": "sj-family:0",
+          "claim": "The San Jose Giants describe their baseball experience as family-oriented. A Family Fun Zone is near the main entrance.",
+          "category": "context",
+          "source_id": "sj-family",
+          "source_title": "A smaller ballpark, a family tradition",
+          "source_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.4074,
+          "venue": "Excite Ballpark",
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": null
+        }
+      ],
+      "warnings": [
+        "Official sources disagree about clutch dimensions. Confirm with the venue before attending.",
+        "These are stored official-source summaries, not event-day verification. Recheck the official guide."
+      ],
+      "data_mode": "illustrative"
+    },
+    {
+      "event": {
+        "id": "sjsu",
+        "provider": "demo",
+        "provider_event_id": "sjsu",
+        "name": "San Jose State vs. Fresno State",
+        "sport": "football",
+        "league": "NCAA",
+        "level": "college",
+        "teams": [
+          "San Jose State Spartans",
+          "Fresno State Bulldogs"
+        ],
+        "start_time": "2026-09-19T16:00:00-07:00",
+        "timezone": "America/Los_Angeles",
+        "venue": "CEFCU Stadium",
+        "city": "San Jose",
+        "state": "CA",
+        "coordinates": {
+          "lat": 37.3196,
+          "lon": -121.8683
+        },
+        "price_min": 22.0,
+        "price_max": 45.0,
+        "price_basis": "illustrative",
+        "outing_extra": 30.0,
+        "ticket_url": "https://sjsuspartans.com/cefcu-prohibited-items",
+        "source_url": "/api/demo/fixtures/sjsu",
+        "image": null,
+        "retrieved_at": "2026-09-12T21:00:00Z",
+        "verification": "illustrative",
+        "data_mode": "illustrative",
+        "public_access": true,
+        "spectator_event": true,
+        "date_confirmed": true,
+        "venue_confirmed": true,
+        "signals": [
+          "rivalry",
+          "local tradition"
+        ],
+        "significance": 75.0,
+        "experience": 81.0,
+        "family": 80.0,
+        "atmosphere": "electric",
+        "color": "blue",
+        "evidence": [
+          {
+            "id": "fixture-sjsu",
+            "claim": "Illustrative fixture: San Jose State vs. Fresno State; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+            "category": "fixture",
+            "source_id": "fixture-sjsu",
+            "source_title": "Illustrative scenario assumptions",
+            "source_url": "/api/demo/fixtures/sjsu",
+            "authority": "illustrative",
+            "retrieved_at": "2026-09-12T21:00:00Z",
+            "effective_date": null,
+            "freshness": "illustrative",
+            "confidence": 0.5,
+            "retrieval_score": null,
+            "venue": null,
+            "event_id": null,
+            "event_type": null,
+            "field": null,
+            "value": null
+          }
+        ]
+      },
+      "rank": 2,
+      "score": {
+        "factors": {
+          "user_fit": 57.5,
+          "significance": 75.0,
+          "experience": 81.0,
+          "convenience": 93.51361812867374,
+          "value": 1.6666666666666718,
+          "personal_needs": null
+        },
+        "weights": {
+          "user_fit": 0.277778,
+          "significance": 0.222222,
+          "experience": 0.166667,
+          "convenience": 0.166667,
+          "value": 0.166667,
+          "personal_needs": 0.0
+        },
+        "opportunity_score": 62.0,
+        "evidence_confidence": 47,
+        "missing_factors": [
+          "personal_needs"
+        ],
+        "rationale": {
+          "user_fit": "Deterministic from validated preferences and cited inputs.",
+          "significance": "Editorial fixture rubric, not a live competitive statistic.",
+          "experience": "Deterministic from validated preferences and cited inputs.",
+          "convenience": "Deterministic from validated preferences and cited inputs.",
+          "value": "Budget remaining after the modeled cost; not a ticket availability guarantee.",
+          "personal_needs": "Unavailable or not relevant; remaining weights normalized proportionally."
+        }
+      },
+      "distance_miles": 1.6,
+      "estimated_total": 118.0,
+      "explanation": "San Jose State vs. Fresno State scores 62/100 for these preferences. San Jose State enforces a clear-bag policy at CEFCU Stadium.",
+      "why_it_matters": [
+        "San Jose State enforces a clear-bag policy at CEFCU Stadium."
+      ],
+      "why_it_fits": [
+        "1.6 straight-line miles from San Jose.",
+        "$118 illustrative outing estimate for 4 people."
+      ],
+      "tradeoffs": [
+        "Your dietary preference is not verified. Check with concessions before committing.",
+        "Date, matchup and prices are illustrative; use official listings to plan a real visit.",
+        "Distance is straight-line, not driving distance or travel time.",
+        "Outing estimate includes a $30 scenario allowance for fees, food and transport; actual costs vary."
+      ],
+      "guide": {
+        "policy": {
+          "venue": "CEFCU Stadium",
+          "fields": {
+            "bags": {
+              "id": "sjsu-bags:0",
+              "claim": "San Jose State enforces a clear-bag policy at CEFCU Stadium.",
+              "category": "policy",
+              "source_id": "sjsu-bags",
+              "source_title": "CEFCU Stadium bag policy",
+              "source_url": "https://sjsuspartans.com/cefcu-prohibited-items",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.3296,
+              "venue": "CEFCU Stadium",
+              "event_id": null,
+              "event_type": null,
+              "field": "bags",
+              "value": null
+            }
+          },
+          "conflicts": [],
+          "warnings": [
+            "Outside food: not verified in the current corpus.",
+            "Water: not verified in the current corpus.",
+            "Exceptions: not verified in the current corpus.",
+            "Prohibited: not verified in the current corpus.",
+            "Reentry: not verified in the current corpus."
+          ],
+          "last_verified": "2026-09-12"
+        },
+        "food": [],
+        "arrival": [],
+        "warnings": [
+          "Outside food: not verified in the current corpus.",
+          "Water: not verified in the current corpus.",
+          "Exceptions: not verified in the current corpus.",
+          "Prohibited: not verified in the current corpus.",
+          "Reentry: not verified in the current corpus.",
+          "Dietary options are not verified in the current corpus. Contact the venue.",
+          "These are stored official-source summaries, not event-day verification. Recheck the official guide."
+        ]
+      },
+      "citations": [
+        {
+          "id": "fixture-sjsu",
+          "claim": "Illustrative fixture: San Jose State vs. Fresno State; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+          "category": "fixture",
+          "source_id": "fixture-sjsu",
+          "source_title": "Illustrative scenario assumptions",
+          "source_url": "/api/demo/fixtures/sjsu",
+          "authority": "illustrative",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "illustrative",
+          "confidence": 0.5,
+          "retrieval_score": null,
+          "venue": null,
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": null
+        },
+        {
+          "id": "sjsu-bags:0",
+          "claim": "San Jose State enforces a clear-bag policy at CEFCU Stadium.",
+          "category": "policy",
+          "source_id": "sjsu-bags",
+          "source_title": "CEFCU Stadium bag policy",
+          "source_url": "https://sjsuspartans.com/cefcu-prohibited-items",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3296,
+          "venue": "CEFCU Stadium",
+          "event_id": null,
+          "event_type": null,
+          "field": "bags",
+          "value": null
+        }
+      ],
+      "warnings": [
+        "Outside food: not verified in the current corpus.",
+        "Water: not verified in the current corpus.",
+        "Exceptions: not verified in the current corpus.",
+        "Prohibited: not verified in the current corpus.",
+        "Reentry: not verified in the current corpus.",
+        "Dietary options are not verified in the current corpus. Contact the venue.",
+        "These are stored official-source summaries, not event-day verification. Recheck the official guide."
+      ],
+      "data_mode": "illustrative"
+    },
+    {
+      "event": {
+        "id": "stanford-volleyball",
+        "provider": "demo",
+        "provider_event_id": "stanford-volleyball",
+        "name": "Stanford vs. Cal \u00b7 Women\u2019s Volleyball",
+        "sport": "volleyball",
+        "league": "NCAA",
+        "level": "college",
+        "teams": [
+          "Stanford Cardinal",
+          "California Golden Bears"
+        ],
+        "start_time": "2026-09-20T14:00:00-07:00",
+        "timezone": "America/Los_Angeles",
+        "venue": "Maples Pavilion",
+        "city": "Stanford",
+        "state": "CA",
+        "coordinates": {
+          "lat": 37.4293,
+          "lon": -122.1608
+        },
+        "price_min": 12.0,
+        "price_max": 20.0,
+        "price_basis": "illustrative",
+        "outing_extra": 28.0,
+        "ticket_url": "https://gostanford.com/facilities/maples-pavilion",
+        "source_url": "/api/demo/fixtures/stanford-volleyball",
+        "image": null,
+        "retrieved_at": "2026-09-12T21:00:00Z",
+        "verification": "illustrative",
+        "data_mode": "illustrative",
+        "public_access": true,
+        "spectator_event": true,
+        "date_confirmed": true,
+        "venue_confirmed": true,
+        "signals": [
+          "rivalry",
+          "affordability"
+        ],
+        "significance": 75.0,
+        "experience": 82.0,
+        "family": 86.0,
+        "atmosphere": "electric",
+        "color": "red",
+        "evidence": [
+          {
+            "id": "fixture-stanford-volleyball",
+            "claim": "Illustrative fixture: Stanford vs. Cal \u00b7 Women\u2019s Volleyball; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+            "category": "fixture",
+            "source_id": "fixture-stanford-volleyball",
+            "source_title": "Illustrative scenario assumptions",
+            "source_url": "/api/demo/fixtures/stanford-volleyball",
+            "authority": "illustrative",
+            "retrieved_at": "2026-09-12T21:00:00Z",
+            "effective_date": null,
+            "freshness": "illustrative",
+            "confidence": 0.5,
+            "retrieval_score": null,
+            "venue": null,
+            "event_id": null,
+            "event_type": null,
+            "field": null,
+            "value": null
+          }
+        ]
+      },
+      "rank": 3,
+      "score": {
+        "factors": {
+          "user_fit": 60.5,
+          "significance": 75.0,
+          "experience": 82.0,
+          "convenience": 34.672309929931835,
+          "value": 36.66666666666667,
+          "personal_needs": null
+        },
+        "weights": {
+          "user_fit": 0.277778,
+          "significance": 0.222222,
+          "experience": 0.166667,
+          "convenience": 0.166667,
+          "value": 0.166667,
+          "personal_needs": 0.0
+        },
+        "opportunity_score": 59.0,
+        "evidence_confidence": 47,
+        "missing_factors": [
+          "personal_needs"
+        ],
+        "rationale": {
+          "user_fit": "Deterministic from validated preferences and cited inputs.",
+          "significance": "Editorial fixture rubric, not a live competitive statistic.",
+          "experience": "Deterministic from validated preferences and cited inputs.",
+          "convenience": "Deterministic from validated preferences and cited inputs.",
+          "value": "Budget remaining after the modeled cost; not a ticket availability guarantee.",
+          "personal_needs": "Unavailable or not relevant; remaining weights normalized proportionally."
+        }
+      },
+      "distance_miles": 16.3,
+      "estimated_total": 76.0,
+      "explanation": "Stanford vs. Cal \u00b7 Women\u2019s Volleyball scores 59/100 for these preferences. Stanford\u2019s clear-bag policy applies at Maples Pavilion.",
+      "why_it_matters": [
+        "Stanford\u2019s clear-bag policy applies at Maples Pavilion."
+      ],
+      "why_it_fits": [
+        "16.3 straight-line miles from San Jose.",
+        "$76 illustrative outing estimate for 4 people."
+      ],
+      "tradeoffs": [
+        "Your dietary preference is not verified. Check with concessions before committing.",
+        "Date, matchup and prices are illustrative; use official listings to plan a real visit.",
+        "Distance is straight-line, not driving distance or travel time.",
+        "Outing estimate includes a $28 scenario allowance for fees, food and transport; actual costs vary."
+      ],
+      "guide": {
+        "policy": {
+          "venue": "Maples Pavilion",
+          "fields": {
+            "bags": {
+              "id": "maples-bags:0",
+              "claim": "Stanford\u2019s clear-bag policy applies at Maples Pavilion.",
+              "category": "policy",
+              "source_id": "maples-bags",
+              "source_title": "Maples Pavilion bags",
+              "source_url": "https://gostanford.com/facilities/maples-pavilion",
+              "authority": "venue_official",
+              "retrieved_at": "2026-09-12T21:00:00Z",
+              "effective_date": null,
+              "freshness": "current",
+              "confidence": 0.95,
+              "retrieval_score": 0.3781,
+              "venue": "Maples Pavilion",
+              "event_id": null,
+              "event_type": null,
+              "field": "bags",
+              "value": null
+            }
+          },
+          "conflicts": [],
+          "warnings": [
+            "Outside food: not verified in the current corpus.",
+            "Water: not verified in the current corpus.",
+            "Exceptions: not verified in the current corpus.",
+            "Prohibited: not verified in the current corpus.",
+            "Reentry: not verified in the current corpus."
+          ],
+          "last_verified": "2026-09-12"
+        },
+        "food": [],
+        "arrival": [],
+        "warnings": [
+          "Outside food: not verified in the current corpus.",
+          "Water: not verified in the current corpus.",
+          "Exceptions: not verified in the current corpus.",
+          "Prohibited: not verified in the current corpus.",
+          "Reentry: not verified in the current corpus.",
+          "Dietary options are not verified in the current corpus. Contact the venue.",
+          "These are stored official-source summaries, not event-day verification. Recheck the official guide."
+        ]
+      },
+      "citations": [
+        {
+          "id": "fixture-stanford-volleyball",
+          "claim": "Illustrative fixture: Stanford vs. Cal \u00b7 Women\u2019s Volleyball; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+          "category": "fixture",
+          "source_id": "fixture-stanford-volleyball",
+          "source_title": "Illustrative scenario assumptions",
+          "source_url": "/api/demo/fixtures/stanford-volleyball",
+          "authority": "illustrative",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "illustrative",
+          "confidence": 0.5,
+          "retrieval_score": null,
+          "venue": null,
+          "event_id": null,
+          "event_type": null,
+          "field": null,
+          "value": null
+        },
+        {
+          "id": "maples-bags:0",
+          "claim": "Stanford\u2019s clear-bag policy applies at Maples Pavilion.",
+          "category": "policy",
+          "source_id": "maples-bags",
+          "source_title": "Maples Pavilion bags",
+          "source_url": "https://gostanford.com/facilities/maples-pavilion",
+          "authority": "venue_official",
+          "retrieved_at": "2026-09-12T21:00:00Z",
+          "effective_date": null,
+          "freshness": "current",
+          "confidence": 0.95,
+          "retrieval_score": 0.3781,
+          "venue": "Maples Pavilion",
+          "event_id": null,
+          "event_type": null,
+          "field": "bags",
+          "value": null
+        }
+      ],
+      "warnings": [
+        "Outside food: not verified in the current corpus.",
+        "Water: not verified in the current corpus.",
+        "Exceptions: not verified in the current corpus.",
+        "Prohibited: not verified in the current corpus.",
+        "Reentry: not verified in the current corpus.",
+        "Dietary options are not verified in the current corpus. Contact the venue.",
+        "These are stored official-source summaries, not event-day verification. Recheck the official guide."
+      ],
+      "data_mode": "illustrative"
+    }
+  ],
+  "baseline": [
+    {
+      "event_id": "sjsu",
+      "name": "San Jose State vs. Fresno State",
+      "distance_miles": 1.6,
+      "qualifies": true,
+      "personalized_rank": 2
+    },
+    {
+      "event_id": "sj-giants",
+      "name": "San Jose Giants vs. Stockton Ports",
+      "distance_miles": 1.8,
+      "qualifies": true,
+      "personalized_rank": 1
+    },
+    {
+      "event_id": "bay-fc",
+      "name": "Bay FC vs. Angel City FC",
+      "distance_miles": 2.3,
+      "qualifies": false,
+      "personalized_rank": null
+    },
+    {
+      "event_id": "49ers",
+      "name": "San Francisco 49ers vs. Seattle Seahawks",
+      "distance_miles": 6.4,
+      "qualifies": false,
+      "personalized_rank": null
+    },
+    {
+      "event_id": "stanford-volleyball",
+      "name": "Stanford vs. Cal \u00b7 Women\u2019s Volleyball",
+      "distance_miles": 16.3,
+      "qualifies": true,
+      "personalized_rank": 3
+    }
+  ],
+  "activity": [
+    {
+      "step": "Understood your outing preferences",
+      "status": "complete",
+      "tool": "parse_user_request",
+      "source_ids": []
+    },
+    {
+      "step": "Found 8 events in the illustrative seasonal sampler",
+      "status": "complete",
+      "tool": "search_events",
+      "source_ids": []
+    },
+    {
+      "step": "Excluded 5 outside your constraints",
+      "status": "complete",
+      "tool": "qualify_events",
+      "source_ids": []
+    },
+    {
+      "step": "Retrieved venue rules and arrival guidance",
+      "status": "complete",
+      "tool": "retrieve_venue_policy",
+      "source_ids": [
+        "maples-bags",
+        "sj-access",
+        "sj-arrival",
+        "sj-bags",
+        "sj-clutch-entry",
+        "sj-clutch-general",
+        "sj-exceptions",
+        "sj-food-rule",
+        "sj-prohibited",
+        "sj-reentry",
+        "sj-water",
+        "sjsu-bags"
+      ]
+    },
+    {
+      "step": "Checked dietary options and menu gaps",
+      "status": "complete",
+      "tool": "retrieve_food_options",
+      "source_ids": [
+        "sj-concessions"
+      ]
+    },
+    {
+      "step": "Retrieved rivalry and local context",
+      "status": "complete",
+      "tool": "retrieve_sports_context",
+      "source_ids": [
+        "sj-family"
+      ]
+    },
+    {
+      "step": "Compared deterministic Opportunity Scores",
+      "status": "complete",
+      "tool": "score_and_rank_events",
+      "source_ids": []
+    },
+    {
+      "step": "Selected 3 recommendations with cited visitor guides",
+      "status": "complete",
+      "tool": "generate_event_guide",
+      "source_ids": []
+    }
+  ],
+  "data_mode": "demo",
+  "agent_active": true,
+  "retrieval_mode": "embeddinggemma",
+  "provider_status": {
+    "ollama": {
+      "reachable": true,
+      "chat_installed": true,
+      "embedding_installed": true
+    },
+    "demo_data": true,
+    "documents": 44,
+    "vector_ready": true,
+    "embedding_model": "embeddinggemma",
+    "chat_model": "qwen3:8b",
+    "app_mode": "demo",
+    "agent_ready": true,
+    "ticketmaster": "not configured",
+    "sportradar": "not configured",
+    "setup": [
+      "ollama serve",
+      "ollama pull qwen3:8b",
+      "ollama pull embeddinggemma",
+      "cd backend && uv run python -m scripts.ingest"
+    ],
+    "investigation_plan": [
+      {
+        "tool": "retrieve_venue_policy",
+        "arguments": {
+          "event_ids": [
+            "sj-giants",
+            "sjsu",
+            "stanford-volleyball"
+          ],
+          "query": "bag, food, water, re-entry, arrival, accessibility"
+        },
+        "ok": true
+      },
+      {
+        "tool": "retrieve_food_options",
+        "arguments": {
+          "event_ids": [
+            "sj-giants",
+            "sjsu",
+            "stanford-volleyball"
+          ],
+          "query": "dietary options, vegetarian"
+        },
+        "ok": true
+      },
+      {
+        "tool": "retrieve_sports_context",
+        "arguments": {
+          "event_ids": [
+            "sj-giants",
+            "sjsu",
+            "stanford-volleyball"
+          ],
+          "query": "rivalry, history, traditions, atmosphere, family experience"
+        },
+        "ok": true
+      }
+    ],
+    "tool_calls": 9,
+    "tool_limit": 10,
+    "events": "demo",
+    "sports": "demo"
+  },
+  "warnings": [
+    "Illustrative seasonal sampler: fixtures, dates, prices and editorial score inputs are authored demo assumptions. No live inventory or ticket availability."
+  ],
+  "processing_ms": 25181,
+  "created_at": "2026-09-12T23:30:41.680123Z"
+}

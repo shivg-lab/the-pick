@@ -1,0 +1,42 @@
+{
+  "runs": [
+    {
+      "scenario": "family",
+      "winner": "San Jose Giants vs. Stockton Ports",
+      "milliseconds": 25558,
+      "agent": true,
+      "alternatives": 2
+    },
+    {
+      "scenario": "iconic",
+      "winner": "Cal vs. Stanford · The Big Game",
+      "milliseconds": 20477,
+      "agent": true,
+      "alternatives": 2
+    }
+  ],
+  "layouts": [
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 900,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "verifiedAt": "2026-09-13T02:01:22.716Z"
+}

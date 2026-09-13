@@ -1,0 +1,76 @@
+[
+  {
+    "scenario": "family",
+    "agent_active": true,
+    "retrieval": "embeddinggemma",
+    "latency_ms": 25181,
+    "tools": [
+      "parse_user_request",
+      "search_events",
+      "qualify_events",
+      "retrieve_venue_policy",
+      "retrieve_food_options",
+      "retrieve_sports_context",
+      "score_and_rank_events",
+      "generate_event_guide"
+    ],
+    "ranking": [
+      [
+        "sj-giants",
+        71.2,
+        75
+      ],
+      [
+        "sjsu",
+        62.0,
+        47
+      ],
+      [
+        "stanford-volleyball",
+        59.0,
+        47
+      ]
+    ],
+    "warnings": [
+      "Illustrative seasonal sampler: fixtures, dates, prices and editorial score inputs are authored demo assumptions. No live inventory or ticket availability."
+    ]
+  },
+  {
+    "scenario": "iconic",
+    "agent_active": true,
+    "retrieval": "embeddinggemma",
+    "latency_ms": 19652,
+    "tools": [
+      "parse_user_request",
+      "search_events",
+      "qualify_events",
+      "retrieve_sports_context",
+      "retrieve_venue_policy",
+      "retrieve_venue_policy",
+      "retrieve_food_options",
+      "score_and_rank_events",
+      "generate_event_guide"
+    ],
+    "ranking": [
+      [
+        "big-game",
+        99.2,
+        75
+      ],
+      [
+        "49ers",
+        96.5,
+        70
+      ],
+      [
+        "sf-giants",
+        94.2,
+        65
+      ]
+    ],
+    "warnings": [
+      "retrieve_venue_policy: Tool requested an unknown or excluded candidate",
+      "Illustrative seasonal sampler: fixtures, dates, prices and editorial score inputs are authored demo assumptions. No live inventory or ticket availability."
+    ]
+  }
+]

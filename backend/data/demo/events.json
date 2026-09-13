@@ -1,0 +1,418 @@
+[
+  {
+    "id": "sj-giants",
+    "provider": "demo",
+    "provider_event_id": "sj-giants",
+    "name": "San Jose Giants vs. Stockton Ports",
+    "sport": "baseball",
+    "league": "MiLB",
+    "level": "local",
+    "teams": [
+      "San Jose Giants",
+      "Stockton Ports"
+    ],
+    "start_time": "2026-09-19T17:00:00-07:00",
+    "venue": "Excite Ballpark",
+    "city": "San Jose",
+    "coordinates": {
+      "lat": 37.3215,
+      "lon": -121.8623
+    },
+    "price_min": 14,
+    "price_max": 24,
+    "outing_extra": 36,
+    "price_basis": "illustrative",
+    "ticket_url": "https://www.milb.com/san-jose/ballpark/a-z-guide",
+    "source_url": "/api/demo/fixtures/sj-giants",
+    "retrieved_at": "2026-09-12T21:00:00+00:00",
+    "verification": "illustrative",
+    "data_mode": "illustrative",
+    "signals": [
+      "family experience",
+      "local tradition"
+    ],
+    "significance": 52,
+    "experience": 78,
+    "family": 96,
+    "atmosphere": "relaxed",
+    "color": "orange",
+    "evidence": [
+      {
+        "id": "fixture-sj-giants",
+        "claim": "Illustrative fixture: San Jose Giants vs. Stockton Ports; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+        "category": "fixture",
+        "source_id": "fixture-sj-giants",
+        "source_title": "Illustrative scenario assumptions",
+        "source_url": "/api/demo/fixtures/sj-giants",
+        "authority": "illustrative",
+        "retrieved_at": "2026-09-12T21:00:00+00:00",
+        "freshness": "illustrative",
+        "confidence": 0.5
+      }
+    ]
+  },
+  {
+    "id": "sf-giants",
+    "provider": "demo",
+    "provider_event_id": "sf-giants",
+    "name": "San Francisco Giants vs. Los Angeles Dodgers",
+    "sport": "baseball",
+    "league": "MLB",
+    "level": "professional",
+    "teams": [
+      "San Francisco Giants",
+      "Los Angeles Dodgers"
+    ],
+    "start_time": "2026-09-19T18:05:00-07:00",
+    "venue": "Oracle Park",
+    "city": "San Francisco",
+    "coordinates": {
+      "lat": 37.7786,
+      "lon": -122.3893
+    },
+    "price_min": 65,
+    "price_max": 140,
+    "outing_extra": 65,
+    "price_basis": "illustrative",
+    "ticket_url": "https://www.mlb.com/giants/schedule",
+    "source_url": "/api/demo/fixtures/sf-giants",
+    "retrieved_at": "2026-09-12T21:00:00+00:00",
+    "verification": "illustrative",
+    "data_mode": "illustrative",
+    "signals": [
+      "rivalry",
+      "unusual venue"
+    ],
+    "significance": 94,
+    "experience": 95,
+    "family": 72,
+    "atmosphere": "electric",
+    "color": "orange",
+    "evidence": [
+      {
+        "id": "fixture-sf-giants",
+        "claim": "Illustrative fixture: San Francisco Giants vs. Los Angeles Dodgers; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+        "category": "fixture",
+        "source_id": "fixture-sf-giants",
+        "source_title": "Illustrative scenario assumptions",
+        "source_url": "/api/demo/fixtures/sf-giants",
+        "authority": "illustrative",
+        "retrieved_at": "2026-09-12T21:00:00+00:00",
+        "freshness": "illustrative",
+        "confidence": 0.5
+      }
+    ]
+  },
+  {
+    "id": "49ers",
+    "provider": "demo",
+    "provider_event_id": "49ers",
+    "name": "San Francisco 49ers vs. Seattle Seahawks",
+    "sport": "football",
+    "league": "NFL",
+    "level": "professional",
+    "teams": [
+      "San Francisco 49ers",
+      "Seattle Seahawks"
+    ],
+    "start_time": "2026-09-20T13:25:00-07:00",
+    "venue": "Levi’s Stadium",
+    "city": "Santa Clara",
+    "coordinates": {
+      "lat": 37.403,
+      "lon": -121.97
+    },
+    "price_min": 175,
+    "price_max": 320,
+    "outing_extra": 100,
+    "price_basis": "illustrative",
+    "ticket_url": "https://levisstadium.com/stadium-az-guide/",
+    "source_url": "/api/demo/fixtures/49ers",
+    "retrieved_at": "2026-09-12T21:00:00+00:00",
+    "verification": "illustrative",
+    "data_mode": "illustrative",
+    "signals": [
+      "rivalry",
+      "strong atmosphere"
+    ],
+    "significance": 96,
+    "experience": 98,
+    "family": 62,
+    "atmosphere": "electric",
+    "color": "red",
+    "evidence": [
+      {
+        "id": "fixture-49ers",
+        "claim": "Illustrative fixture: San Francisco 49ers vs. Seattle Seahawks; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+        "category": "fixture",
+        "source_id": "fixture-49ers",
+        "source_title": "Illustrative scenario assumptions",
+        "source_url": "/api/demo/fixtures/49ers",
+        "authority": "illustrative",
+        "retrieved_at": "2026-09-12T21:00:00+00:00",
+        "freshness": "illustrative",
+        "confidence": 0.5
+      }
+    ]
+  },
+  {
+    "id": "big-game",
+    "provider": "demo",
+    "provider_event_id": "big-game",
+    "name": "Cal vs. Stanford · The Big Game",
+    "sport": "football",
+    "league": "NCAA",
+    "level": "college",
+    "teams": [
+      "California Golden Bears",
+      "Stanford Cardinal"
+    ],
+    "start_time": "2026-11-21T12:30:00-08:00",
+    "venue": "California Memorial Stadium",
+    "city": "Berkeley",
+    "coordinates": {
+      "lat": 37.871,
+      "lon": -122.2508
+    },
+    "price_min": 75,
+    "price_max": 150,
+    "outing_extra": 65,
+    "price_basis": "illustrative",
+    "ticket_url": "https://calbears.com/sports/2014/11/17/209769759",
+    "source_url": "/api/demo/fixtures/big-game",
+    "retrieved_at": "2026-09-12T21:00:00+00:00",
+    "verification": "illustrative",
+    "data_mode": "illustrative",
+    "signals": [
+      "rivalry",
+      "local tradition"
+    ],
+    "significance": 100,
+    "experience": 97,
+    "family": 70,
+    "atmosphere": "electric",
+    "color": "blue",
+    "evidence": [
+      {
+        "id": "fixture-big-game",
+        "claim": "Illustrative fixture: Cal vs. Stanford · The Big Game; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+        "category": "fixture",
+        "source_id": "fixture-big-game",
+        "source_title": "Illustrative scenario assumptions",
+        "source_url": "/api/demo/fixtures/big-game",
+        "authority": "illustrative",
+        "retrieved_at": "2026-09-12T21:00:00+00:00",
+        "freshness": "illustrative",
+        "confidence": 0.5
+      }
+    ]
+  },
+  {
+    "id": "sjsu",
+    "provider": "demo",
+    "provider_event_id": "sjsu",
+    "name": "San Jose State vs. Fresno State",
+    "sport": "football",
+    "league": "NCAA",
+    "level": "college",
+    "teams": [
+      "San Jose State Spartans",
+      "Fresno State Bulldogs"
+    ],
+    "start_time": "2026-09-19T16:00:00-07:00",
+    "venue": "CEFCU Stadium",
+    "city": "San Jose",
+    "coordinates": {
+      "lat": 37.3196,
+      "lon": -121.8683
+    },
+    "price_min": 22,
+    "price_max": 45,
+    "outing_extra": 30,
+    "price_basis": "illustrative",
+    "ticket_url": "https://sjsuspartans.com/cefcu-prohibited-items",
+    "source_url": "/api/demo/fixtures/sjsu",
+    "retrieved_at": "2026-09-12T21:00:00+00:00",
+    "verification": "illustrative",
+    "data_mode": "illustrative",
+    "signals": [
+      "rivalry",
+      "local tradition"
+    ],
+    "significance": 75,
+    "experience": 81,
+    "family": 80,
+    "atmosphere": "electric",
+    "color": "blue",
+    "evidence": [
+      {
+        "id": "fixture-sjsu",
+        "claim": "Illustrative fixture: San Jose State vs. Fresno State; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+        "category": "fixture",
+        "source_id": "fixture-sjsu",
+        "source_title": "Illustrative scenario assumptions",
+        "source_url": "/api/demo/fixtures/sjsu",
+        "authority": "illustrative",
+        "retrieved_at": "2026-09-12T21:00:00+00:00",
+        "freshness": "illustrative",
+        "confidence": 0.5
+      }
+    ]
+  },
+  {
+    "id": "stanford-volleyball",
+    "provider": "demo",
+    "provider_event_id": "stanford-volleyball",
+    "name": "Stanford vs. Cal · Women’s Volleyball",
+    "sport": "volleyball",
+    "league": "NCAA",
+    "level": "college",
+    "teams": [
+      "Stanford Cardinal",
+      "California Golden Bears"
+    ],
+    "start_time": "2026-09-20T14:00:00-07:00",
+    "venue": "Maples Pavilion",
+    "city": "Stanford",
+    "coordinates": {
+      "lat": 37.4293,
+      "lon": -122.1608
+    },
+    "price_min": 12,
+    "price_max": 20,
+    "outing_extra": 28,
+    "price_basis": "illustrative",
+    "ticket_url": "https://gostanford.com/facilities/maples-pavilion",
+    "source_url": "/api/demo/fixtures/stanford-volleyball",
+    "retrieved_at": "2026-09-12T21:00:00+00:00",
+    "verification": "illustrative",
+    "data_mode": "illustrative",
+    "signals": [
+      "rivalry",
+      "affordability"
+    ],
+    "significance": 75,
+    "experience": 82,
+    "family": 86,
+    "atmosphere": "electric",
+    "color": "red",
+    "evidence": [
+      {
+        "id": "fixture-stanford-volleyball",
+        "claim": "Illustrative fixture: Stanford vs. Cal · Women’s Volleyball; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+        "category": "fixture",
+        "source_id": "fixture-stanford-volleyball",
+        "source_title": "Illustrative scenario assumptions",
+        "source_url": "/api/demo/fixtures/stanford-volleyball",
+        "authority": "illustrative",
+        "retrieved_at": "2026-09-12T21:00:00+00:00",
+        "freshness": "illustrative",
+        "confidence": 0.5
+      }
+    ]
+  },
+  {
+    "id": "bay-fc",
+    "provider": "demo",
+    "provider_event_id": "bay-fc",
+    "name": "Bay FC vs. Angel City FC",
+    "sport": "soccer",
+    "league": "NWSL",
+    "level": "professional",
+    "teams": [
+      "Bay FC",
+      "Angel City FC"
+    ],
+    "start_time": "2026-09-19T19:00:00-07:00",
+    "venue": "PayPal Park",
+    "city": "San Jose",
+    "coordinates": {
+      "lat": 37.3516,
+      "lon": -121.925
+    },
+    "price_min": 28,
+    "price_max": 60,
+    "outing_extra": 45,
+    "price_basis": "illustrative",
+    "ticket_url": "https://bayfc.com/paypal-park/a-z/",
+    "source_url": "/api/demo/fixtures/bay-fc",
+    "retrieved_at": "2026-09-12T21:00:00+00:00",
+    "verification": "illustrative",
+    "data_mode": "illustrative",
+    "signals": [
+      "family experience",
+      "strong atmosphere"
+    ],
+    "significance": 76,
+    "experience": 86,
+    "family": 85,
+    "atmosphere": "electric",
+    "color": "navy",
+    "evidence": [
+      {
+        "id": "fixture-bay-fc",
+        "claim": "Illustrative fixture: Bay FC vs. Angel City FC; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+        "category": "fixture",
+        "source_id": "fixture-bay-fc",
+        "source_title": "Illustrative scenario assumptions",
+        "source_url": "/api/demo/fixtures/bay-fc",
+        "authority": "illustrative",
+        "retrieved_at": "2026-09-12T21:00:00+00:00",
+        "freshness": "illustrative",
+        "confidence": 0.5
+      }
+    ]
+  },
+  {
+    "id": "stanford-football",
+    "provider": "demo",
+    "provider_event_id": "stanford-football",
+    "name": "Stanford vs. Notre Dame",
+    "sport": "football",
+    "league": "NCAA",
+    "level": "college",
+    "teams": [
+      "Stanford Cardinal",
+      "Notre Dame Fighting Irish"
+    ],
+    "start_time": "2026-11-28T12:30:00-08:00",
+    "venue": "Stanford Stadium",
+    "city": "Stanford",
+    "coordinates": {
+      "lat": 37.4346,
+      "lon": -122.161
+    },
+    "price_min": 55,
+    "price_max": 115,
+    "outing_extra": 60,
+    "price_basis": "illustrative",
+    "ticket_url": "https://gostanford.com/facilities/stanford-stadium",
+    "source_url": "/api/demo/fixtures/stanford-football",
+    "retrieved_at": "2026-09-12T21:00:00+00:00",
+    "verification": "illustrative",
+    "data_mode": "illustrative",
+    "signals": [
+      "rivalry",
+      "local tradition"
+    ],
+    "significance": 89,
+    "experience": 88,
+    "family": 73,
+    "atmosphere": "electric",
+    "color": "red",
+    "evidence": [
+      {
+        "id": "fixture-stanford-football",
+        "claim": "Illustrative fixture: Stanford vs. Notre Dame; date, opponent, ticket range, outing allowance and editorial scores are scenario assumptions, not a verified listing.",
+        "category": "fixture",
+        "source_id": "fixture-stanford-football",
+        "source_title": "Illustrative scenario assumptions",
+        "source_url": "/api/demo/fixtures/stanford-football",
+        "authority": "illustrative",
+        "retrieved_at": "2026-09-12T21:00:00+00:00",
+        "freshness": "illustrative",
+        "confidence": 0.5
+      }
+    ]
+  }
+]
