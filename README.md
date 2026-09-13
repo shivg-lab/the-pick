@@ -2,7 +2,7 @@
 
 **We do the homework. You make the memories.**
 
-Created by **Team 10**.
+Created by **Team 10** — Omkar Sali, Shiv Ganapathy, Divya Saini, Anusha Akkiraju, Sudhir Ganesh Paluru, Ashutosh.
 
 A local, Ollama-powered Bay Area sports concierge for families, travelers, newcomers and first-time attendees. Discover → Decide → Prepare: describe a day out, see one prominent recommendation and two smaller alternatives, then prepare with inline venue guidance and a detailed source-backed guide.
 
