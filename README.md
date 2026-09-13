@@ -1,6 +1,8 @@
-# The Pick — Team 10 ↗
+# The Pick — Your Game-Day Concierge ↗
 
-**Find the game worth showing up for—and know before you go.**
+**We do the homework. You make the memories.**
+
+Created by **Team 10**.
 
 A local, Ollama-powered Bay Area sports concierge for families, travelers, newcomers and first-time attendees. Discover → Decide → Prepare: describe a day out, see one prominent recommendation and two smaller alternatives, then prepare with inline venue guidance and a detailed source-backed guide.
 
